@@ -16,4 +16,14 @@ In this textbook, you will will find ...
 
 Every effort is made to avoid highly technical language. Additional sections and chapters will continue to be added.
 
-Sections and Chapters
+### Sections and Chapters
+#### Pedagogy
+- [Definitions](Definitions.md)
+#### Sample Project
+- [Choice-Project-Overview](Choice-Project-Overview.md)
+#### Resources
+- [Resources](Resources.md)
+#### Projects
+- [Projects](Projects.md)
+
+

@@ -1,0 +1,5 @@
+- [[synced/1-C-Pub-STEM-ICT-for-K-12/book-pages/Indeces/Markdown.md]]
+- [[synced/1-C-Pub-STEM-ICT-for-K-12/book-pages/Indeces/_Index_Indeces.md]]
+- [[synced/1-C-Pub-STEM-ICT-for-K-12/book-pages/Indeces/Indeces.md]]
+- [[synced/1-C-Pub-STEM-ICT-for-K-12/book-pages/Indeces/Elementary-Inquiry-2016-2017.md]]
+- [[synced/1-C-Pub-STEM-ICT-for-K-12/book-pages/Indeces]]

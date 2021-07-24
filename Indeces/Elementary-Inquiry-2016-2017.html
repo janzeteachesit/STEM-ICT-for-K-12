@@ -1,0 +1,673 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2016-2017 Elementary Inquiry &#8212; My sample book</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.e8e5499552300ddf5d7adccae7cc3b70.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">My sample book</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro.html">
+   Welcome to STEM ICT for K-12
+  </a>
+ </li>
+</ul>
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/Indeces/Elementary-Inquiry-2016-2017.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FIndeces/Elementary-Inquiry-2016-2017.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   2016-2017 Elementary Inquiry
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#computational-thinking-ct">
+   Computational Thinking (CT)
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ct-pdp">
+     CT-PDP
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ct-plugged">
+     CT-Plugged
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ct-unplugged">
+     CT-Unplugged
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#cs-unplugged">
+       CS Unplugged
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#exploring-computational-thinking-ect-google-for-education">
+       Exploring Computational Thinking (ECT) - Google for Education
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#code-org-unplugged">
+       Code.org Unplugged
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#media-arts-dm">
+   Media Arts (DM)
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#dm-pdp">
+     DM - PDP
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#dm-unplugged">
+     DM - Unplugged
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#dm-plugged">
+     DM - Plugged
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#scratch">
+       - Scratch
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#cs-discoveries-code-org">
+       - CS Discoveries - code.org
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#computers-and-communications-devices-ccd">
+   Computers and Communications Devices (CCD)
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ccd-pdp">
+     CCD PDP
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ccd-plugged">
+     CCD Plugged
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ccd-unplugged">
+     CCD Unplugged
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#core-competencies">
+   Core Competencies
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#adst-big-ideas">
+   ADST Big Ideas
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#adst-curricular-competencies">
+   ADST Curricular Competencies
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="elementary-inquiry">
+<h1>2016-2017 Elementary Inquiry<a class="headerlink" href="#elementary-inquiry" title="Permalink to this headline">¶</a></h1>
+<p>Added: 20210721-2207</p>
+<p>#elementaryinquiry #ct</p>
+<ul class="simple">
+<li><p>[[1-C-Pub-STEM-ICT-for-K-12]]</p></li>
+<li><p>[[_Index_1-C-Pub-STEM-ICT-for-K-12]]</p></li>
+<li><p>[[_Index_book-pages]]</p></li>
+<li><p>[[2016-2017 Elementary Inquiry]]</p></li>
+<li><p><a class="reference external" href="https://github.com/janzeteachesit/Learning-Diary/issues/16">#16</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1M6DjJsZZdQIa-MNnbxhR6-xQoUEqmnFQwinKClefbkM/edit">20162017ElementarySTEMADSTCoding - GDoc</a></p></li>
+</ul>
+<blockquote>
+<div><p>Inquiry Question: How does a project-based STEM learning environment increase authentic student engagement in Elementary Math, Science and the new Design and Coding curriculum?</p>
+</div></blockquote>
+<p>As you know, the BC Government mandates that students must “experience a minimum of three modules of <a class="reference external" href="https://curriculum.gov.bc.ca/curriculum/applied-design-skills-and-technologies/introduction">Applied Design, Skills, and Technologies</a> ADST in each of Grades 6 and 7”.</p>
+<p>Each teacher would be able to test a complete set of lesson plans and student handouts for each Project-based module, for both “Digital” (device-based) and “Unplugged” (paper-based) activities.</p>
+<p>I am offering to share 3 teachable modules addressing the new ADST curriculum, specifically:</p>
+</div>
+<div class="section" id="computational-thinking-ct">
+<h1><a class="reference external" href="https://curriculum.gov.bc.ca/curriculum/adst/7">Computational Thinking (CT)</a><a class="headerlink" href="#computational-thinking-ct" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>simple algorithms that reflect computational thinking;  for sorting, searching, sequence, selection, and repetition; specific statements to complete a simple task; cryptography and code breaking (e.g., cyphers)</p></li>
+<li><p>visual representations of problems and data;  graphs, charts, network diagrams, info graphics, flow charts, lists, tables, or arrays</p></li>
+<li><p>evolution of programming languages; historical perspectives, evolution (e.g., Ada Lovelace, punch cards, Hollerith, Grace Hopper, Alan Turing, Enigma, cyphers)</p></li>
+<li><p>visual programming;  for example, Kodu, Scratch</p></li>
+</ul>
+<div class="section" id="ct-pdp">
+<h2>CT-PDP<a class="headerlink" href="#ct-pdp" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://computationalthinkingcourse.withgoogle.com/course">Introducing Computational Thinking - GfE</a></p>
+</div>
+<div class="section" id="ct-plugged">
+<h2>CT-Plugged<a class="headerlink" href="#ct-plugged" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://developer.apple.com/swift/playgrounds/">Swift Playgrounds A new way to learn to code with Swift on iPad - iOS 10</a></p></li>
+<li><p><a class="reference external" href="http://www.teachableagents.org/research/bettysbrain.php">Betty’s Brain</a></p></li>
+</ul>
+</div>
+<div class="section" id="ct-unplugged">
+<h2>CT-Unplugged<a class="headerlink" href="#ct-unplugged" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="cs-unplugged">
+<h3><a class="reference external" href="http://csunplugged.org/activities/">CS Unplugged</a><a class="headerlink" href="#cs-unplugged" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="http://csunplugged.org/harold-the-robot-2/">Harold the Robot</a> - In this activity children simply give directions to a “robot” (either an adult or another child) and find out which instructions the robot is able to follow, and how their instructions are taken literally.</p></li>
+<li><p><a class="reference external" href="http://csunplugged.org/phylogenetics/">Phylogenetics</a> - Bioinformatics is a discipline that combines computer science and biology. Bioinformatics uses the algorithms and technology of computer science, mathematics, and statistics to solve problems for biology. For example, it has allowed biologists to reconstruct phylogenetic (evolutionary) trees using computer science techniques such as string matching, edit distance, and matrices.  This activity lets students participate in the process of reconstructing a phylogenetic tree and introduces them to several core bioinformatics concepts. It’s a good exercise for classes in biology (evolution), bioinformatics (phylogenetics), or mathematics (matrices). It’s suitable for ages ten and up, and doesn’t require too much prior knowledge: just following instructions, writing, and basic math.</p></li>
+</ul>
+</div>
+<div class="section" id="exploring-computational-thinking-ect-google-for-education">
+<h3>Exploring Computational Thinking (ECT) - Google for Education<a class="headerlink" href="#exploring-computational-thinking-ect-google-for-education" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://edu.google.com/resources/programs/exploring-computational-thinking/#%21ct-materials">Exploring Computational Thinking ECT - Google for Education</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1dpchPvzB8vluEclPjruijeWPOQnNu9jxFKabXhzqKL8/edit">ECT Lesson Plan: Ciphering a Sentence</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1DEtX0JFuajlqeYOPQEilwS3SIeXNsKyImhsDsWt3jl4/edit#heading=h.ah3tmrck5xha">ECT Lesson Plan: Algorithmic Thinking</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1R0NLkGx8rtPMIaPmSJa-L50aPXEbhu2nLWRz241FTr8/edit#heading=h.ah3tmrck5xha">ECT Lesson Plan: Pattern Machine</a></p></li>
+</ul>
+</div>
+<div class="section" id="code-org-unplugged">
+<h3><a class="reference external" href="http://Code.org">Code.org</a> Unplugged<a class="headerlink" href="#code-org-unplugged" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://studio.code.org/unplugged/unplug2.pdf">CT - code.org Unplugged Monster Cataolog pdf</a></p>
+<ul>
+<li><p><a class="reference external" href="https://www.google.ca/webhp?sourceid=chrome-instant&amp;rlz=1C1CHBF_enCA700CA700&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=site:https://studio.code.org/unplugged/">site:https://studio.code.org/unplugged - GSearch</a></p></li>
+<li><p><a class="reference external" href="https://code.org/curriculum/unplugged">CS Fundamentals Unplugged</a></p></li>
+<li><p><a class="reference external" href="https://code.org/curriculum/docs/k-5/complete_compressed.pdf">CS Fundamentals for Courses 1 - 4 pdf</a></p></li>
+<li><p><a class="reference external" href="https://code.org/curriculum/docs/k-5/teacherKeyComplete.pdf">Code Studio Lesson Keys for Courses 1 - 4 pdf</a></p></li>
+<li><p><a class="reference external" href="https://studio.code.org/unplugged/unplug1.pdf">https://studio.code.org/unplugged/unplug1.pdf</a> | unplug1.pdf Intro to the Art of Computer Science; Main Goal: Give the class a clear understanding of what computer science is and how it could be helpful in their lives.</p>
+<ul>
+<li><p>Binary Decoder Key</p></li>
+<li><p>Graph paper or Binary Strips</p></li>
+<li><p>Markers</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://studio.code.org/unplugged/unplug2.pdf">https://studio.code.org/unplugged/unplug2.pdf</a> | unplug2.pdf Computational Thinking; Main Goal: Introduce the “Computational Thinking” model as a way of preparing real-world problems for digital representation.</p>
+<ul>
+<li><p>Monster Catalog (1 per group)</p></li>
+<li><p>Blank pieces of paper (3 per person)</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://studio.code.org/unplugged/unplug3.pdf">https://studio.code.org/unplugged/unplug3.pdf</a> | unplug3.pdf Graph Paper Programming; Main Goal: Help students understand how “coding” works.</p>
+<ul>
+<li><p>Sample Drawings/Algorithms Kit</p></li>
+<li><p>Programming Instructions Card</p></li>
+<li><p>Large grid graph paper</p></li>
+<li><p>Markers, pens, or pencils (two or three colors)</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://studio.code.org/unplugged/unplug4.pdf">https://studio.code.org/unplugged/unplug4.pdf</a> | unplug4.pdf Algorithms; Main Goal: Explain that the same thing can be accomplished many different ways, and sometimes there are “better” ways than others.</p>
+<ul>
+<li><p>Tangram Image Pack (one set per pair)</p></li>
+<li><p>Tangram Pieces (one set per pair)</p></li>
+<li><p>Graph paper (five or six sheets per pair)</p></li>
+<li><p>One piece of blank paper</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://studio.code.org/unplugged/unplug5.pdf">https://studio.code.org/unplugged/unplug5.pdf</a> | unplug5.pdf Functions; Main Goal: Illustrate how repetitive tasks can be stored in
+a small group that can be “called” several times, instead of wasting space with lots of copies of the same instruction.</p>
+<ul>
+<li><p>One foot of string, thread, or fishing line per student</p></li>
+<li><p>2-4 beads per student</p></li>
+<li><p>2-4 other accessories (buttons, hoops, spacers) per student</p></li>
+<li><p>One special bead, prism, or student-made sun charm per student</p></li>
+<li><p>One Skills Sheet per group</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://studio.code.org/unplugged/unplug6.pdf">https://studio.code.org/unplugged/unplug6.pdf</a> | unplug6.pdf Conditionals: (Coding with Cards); Main Goal: This lesson will introduce conditionals, especially as they pertain to loops and if statements.</p>
+<ul>
+<li><p>1 set of Program Pages per class (This has at least one sample program on it)</p></li>
+<li><p>1 deck of playing cards</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://studio.code.org/unplugged/unplug7.pdf">https://studio.code.org/unplugged/unplug7.pdf</a> | unplug7.pdf Song Writing; Main Goal: Learn how to define and call functions.</p>
+<ul>
+<li><p>Paper and pencils for writing songs</p></li>
+<li><p>Printouts of famous children’s songs with lyrics that change slightly</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://studio.code.org/unplugged/unplug8.pdf">https://studio.code.org/unplugged/unplug8.pdf</a> | unplug8.pdf Abstraction; Main Goal: Help students to see how often they use
+abstraction in their everyday life.</p>
+<ul>
+<li><p>Paper, pencils, and printed copies of stories for every student</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://studio.code.org/unplugged/unplug9.pdf">https://studio.code.org/unplugged/unplug9.pdf</a> | unplug9.pdf Relay Programming; Main Goal: Emphasize the importance of checking your work and writing programs in proper sequence.</p>
+<ul>
+<li><p>Sample Drawings/Algorithms Kit from lesson 4</p></li>
+<li><p>Programming Instructions Card</p></li>
+<li><p>Large grid graph paper</p></li>
+<li><p>Blank notecards or pieces of paper</p></li>
+<li><p>Markers, pens, or pencils (two or three colors)</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://studio.code.org/unplugged/unplug10.pdf">https://studio.code.org/unplugged/unplug10.pdf</a> | unplug10.pdf The Internet; Main Goal: Students will learn how the Internet works, as it relates to URL addresses and web pages.</p>
+<ul>
+<li><p>DNS Translation Table</p></li>
+<li><p>Server Address Name Tags</p></li>
+<li><p>Message Packets</p></li>
+<li><p>#10 envelopes</p></li>
+<li><p>Scissors</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://studio.code.org/unplugged/unplug11.pdf">https://studio.code.org/unplugged/unplug11.pdf</a> | unplug11.pdf Wrap-Up; Main Goal: Prepare the class for continued learning in computer science.
+- This is up to the instructor. It’s a good idea to have a large variety of items to pique the classroom interest and prompt clever inventions. Some inspiring materials tend to be:
+- Battery-operated tea lights
+- Aluminum foil
+- Paper clips
+- Markers
+- Paper (lined, blank, graph, construction)
+- Scissors
+- Tape
+- Fake coins/money
+- Beads
+- tring
+- Popsicle sticks
+- Pipe cleaners</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="media-arts-dm">
+<h1><a class="reference external" href="https://curriculum.gov.bc.ca/curriculum/adst/7">Media Arts (DM)</a><a class="headerlink" href="#media-arts-dm" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>digital and non-digital media, and their distinguishing characteristics and uses; for example, video production, layout and design, graphics and images, photography (digital and traditional), emerging media processes (performance art, collaborative work, sound art, network art)</p></li>
+<li><p>techniques for using images, sounds, and text to communicate information, settings, ideas, and story structure; for example, crop, print, record/capture, sequence</p></li>
+<li><p>media technologies and techniques to capture, edit, and manipulate images, sounds, and text for specific purposes</p></li>
+<li><p>influences of digital media for the purpose of communication and self-expression</p></li>
+</ul>
+<div class="section" id="dm-pdp">
+<h2>DM - PDP<a class="headerlink" href="#dm-pdp" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="dm-unplugged">
+<h2>DM - Unplugged<a class="headerlink" href="#dm-unplugged" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://blog.everydaycomputing.org/2016/08/26/letting-math-teachers-steer/">Letting Math Teachers Steer: Keeping Grounded with the Empirical Trajectories</a><img alt="" src="https://github.com/everydaycomputing/everydaycomputing.github.io/raw/master/public/images//blog/BlogPost6-Image1.jpg" /></p></li>
+<li><p>8-bit art with post-its</p></li>
+<li><p><a class="reference external" href="http://www.cpre.org/sites/default/files/researchreport/1220_learningtrajectoriesinmathcciireport.pdf">Learning Trajectories in Math - pdf</a></p></li>
+</ul>
+</div>
+<div class="section" id="dm-plugged">
+<h2>DM - Plugged<a class="headerlink" href="#dm-plugged" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="scratch">
+<h3>- Scratch<a class="headerlink" href="#scratch" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="cs-discoveries-code-org">
+<h3>- <a class="reference external" href="https://curriculum.code.org/csd/resources/">CS Discoveries - code.org</a><a class="headerlink" href="#cs-discoveries-code-org" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+</div>
+<div class="section" id="computers-and-communications-devices-ccd">
+<h1><a class="reference external" href="https://curriculum.gov.bc.ca/curriculum/adst/7">Computers and Communications Devices (CCD)</a><a class="headerlink" href="#computers-and-communications-devices-ccd" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>computer system architecture, including hardware and software, network infrastructure (local), intranet/Internet, and personal communication devices</p></li>
+<li><p>strategies for identifying and troubleshooting simple hardware and software problems</p></li>
+<li><p>function of input and output devices, including 3D printing and adaptive technologies for those with special needs</p></li>
+<li><p>ergonomics in use of computers and computing devices</p></li>
+<li><p>effective and efficient keyboarding techniques</p></li>
+</ul>
+<div class="section" id="ccd-pdp">
+<h2>CCD PDP<a class="headerlink" href="#ccd-pdp" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="ccd-plugged">
+<h2>CCD Plugged<a class="headerlink" href="#ccd-plugged" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="ccd-unplugged">
+<h2>CCD Unplugged<a class="headerlink" href="#ccd-unplugged" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://cse4k12.org/how_computers_work/index.html">How Computers Work - cse4k12.org</a></p></li>
+<li><p><a class="reference external" href="http://cse4k12.org/">cse4k12.org</a> - A collection of handouts, worksheets and other documents to help teach Computer Science and Engineering concepts.</p></li>
+<li><p><a class="reference external" href="http://cse4k12.org/internet/how-internet-works.html">How the Internet Works</a></p></li>
+<li><p><a class="reference external" href="http://cse4k12.blogspot.ca/2009/12/how-internet-works-activity-for.html">How the Internet Works (activity for elementary/middle school)</a></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="core-competencies">
+<h1>Core Competencies<a class="headerlink" href="#core-competencies" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference external" href="https://vsbworld-my.sharepoint.com/personal/cjanze_vsb_bc_ca/_layouts/15/guestaccess.aspx?docid=03bdcdb1a924c44c28825345c4029a3e4&amp;authkey=AZmOHQpU6ElEexzAZ6W8Adk">CC Doc3 Tree Diagram - O365</a></p></li>
+<li><p><a class="reference external" href="https://vsbworld-my.sharepoint.com/personal/cjanze_vsb_bc_ca/_layouts/15/guestaccess.aspx?docid=089cfdeaded554c8c97e934dc009fc59e&amp;authkey=AUTjS2JQaBXDptFdyZOBri4">Communicating Student Learning Resources - O365</a></p></li>
+<li><p><a class="reference external" href="https://vsbworld-my.sharepoint.com/personal/cjanze_vsb_bc_ca/_layouts/15/guestaccess.aspx?docid=03a2662b67acc4c36adab3899074da4a1&amp;authkey=AZOwiGY2iVEJL0ha9pDcRg8">Communication Competency Rubric - O365</a></p></li>
+<li><p><a class="reference external" href="https://vsbworld-my.sharepoint.com/personal/cjanze_vsb_bc_ca/_layouts/15/guestaccess.aspx?docid=0b52d6b9ca33340e9bf22f69de980d38e&amp;authkey=ARgPRWbzzP-5YkCEniiBYew">Critical Thinking Competency Rubric </a></p></li>
+</ul>
+</div>
+<div class="section" id="adst-big-ideas">
+<h1>ADST Big Ideas<a class="headerlink" href="#adst-big-ideas" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Design can be responsive to identified needs.</p></li>
+<li><p>Complex tasks require the acquisition of additional skills.</p></li>
+<li><p>Complex tasks may require multiple tools and technologies.</p></li>
+</ul>
+</div>
+<div class="section" id="adst-curricular-competencies">
+<h1>ADST Curricular Competencies<a class="headerlink" href="#adst-curricular-competencies" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Understanding context</p>
+<ul>
+<li><p>Empathize with potential users to find issues and uncover needs and potential design opportunities</p>
+<ul>
+<li><p>share the feelings and understand the needs of others to inform design</p></li>
+<li><p>may include self, peers, younger children, family or community members, customers, plants, or animals</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Defining</p>
+<ul>
+<li><p>Choose a design opportunity</p></li>
+<li><p>Identify key features or potential users and their requirements</p></li>
+<li><p>Identify criteria for success and any constraints</p>
+<ul>
+<li><p>limiting factors such as task or user requirements, materials, expense, environmental impact, issues of appropriation, and knowledge that is considered sacred</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Ideating</p>
+<ul>
+<li><p>Generate potential ideas and add to others’ ideas</p></li>
+<li><p>Screen ideas against criteria and constraints</p></li>
+<li><p>Evaluate personal, social, and environmental impacts and ethical considerations</p></li>
+<li><p>Choose an idea to pursue</p></li>
+</ul>
+</li>
+<li><p>Prototyping</p>
+<ul>
+<li><p>Identify and use sources of information</p></li>
+<li><p>Develop a plan that identifies key stages and resources</p></li>
+<li><p>Explore and test a variety of materials for effective use</p></li>
+<li><p>Construct a first version of the product or a prototype, as appropriate, making changes to tools, materials, and procedures as needed</p></li>
+<li><p>Record iterations of prototyping</p>
+<ul>
+<li><p>including seeking knowledge from other people as experts (e.g., First Peoples Elders), secondary sources, and collective pools of knowledge in communities and collaborative atmospheres</p></li>
+<li><p>for example, a physical product, a process, a system, a service, or a designed environment</p></li>
+<li><p>repetitions of a process with the aim of approaching a desired result</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Testing</p>
+<ul>
+<li><p>Test the first version of the product or the prototype</p></li>
+<li><p>Gather peer and/or user and/or expert feedback and inspiration</p></li>
+<li><p>Make changes, troubleshoot, and test again</p></li>
+</ul>
+</li>
+<li><p>Making</p>
+<ul>
+<li><p>Identify and use appropriate tools, technologies, and materials for production</p></li>
+<li><p>Make a plan for production that includes key stages, and carry it out, making changes as needed</p></li>
+<li><p>Use materials in ways that minimize waste</p>
+<ul>
+<li><p>things that extend human capabilities</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Sharing</p>
+<ul>
+<li><p>Decide on how and with whom to share their product</p></li>
+<li><p>Demonstrate their product and describe their process, using appropriate terminology and providing reasons for their selected solution and modifications</p></li>
+<li><p>Evaluate their product against their criteria and explain how it contributes to the individual, family, community, and/or environment</p></li>
+<li><p>Reflect on their design thinking and processes, and evaluate their ability to work effectively both as individuals and collaboratively in a group, including their ability to share and maintain an efficient co-operative work space</p></li>
+<li><p>Identify new design issues</p>
+<ul>
+<li><p>may include showing to others, use by others, giving away, or marketing and selling</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Demonstrate an awareness of precautionary and emergency safety procedures in both physical and digital environments</p></li>
+<li><p>Identify and evaluate the skills and skill levels needed, individually or as a group, in relation to a specific task, and develop them as needed</p></li>
+<li><p>Select, and as needed learn about, appropriate tools and technologies to extend their capability to complete a task</p></li>
+<li><p>Identify the personal, social, and environmental impacts, including unintended negative consequences, of the choices they make about technology use</p></li>
+<li><p>Identify how the land, natural resources, and culture influence the development and use of tools and technologies</p></li>
+</ul>
+<p>Notes, Resources and Links</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/janzeteachesit/elementary-inquiry/blob/master/20162017-elem-inq-febnotes.md">2016-2017 Elementary Inquiry Notes 20170227 - GitHub</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1sL2Iil_h9o9MzjcEJdxWsSm4CzN-1ZXKM6-0rUm4z2s/edit?usp=sharing">Computational Thinking CT - 2016-2017 Elementary Inquiry - Notes 20170227 - GDoc</a></p></li>
+</ul>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./Indeces"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By The Jupyter Book Community<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
