@@ -1,0 +1,660 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D-Design &#8212; My sample book</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.e8e5499552300ddf5d7adccae7cc3b70.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">My sample book</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro.html">
+   Welcome to STEM ICT for K-12
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Overview
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Pedagogy/Definitions.html">
+   Definitions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Pedagogy/ADST.html">
+   ADST
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Pedagogy/Computational-Thinking.html">
+   Computational Thinking
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Pedagogy/ICT.html">
+   ICT
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Pedagogy/New-BC-Curriculum.html">
+   New Curriculum
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Pedagogy/PBL.html">
+   PBL
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Pedagogy/STEM.html">
+   STEM
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Choice Project
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Choice-Project/Choice-Project-Overview.html">
+   Choice Project
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Choice-Project/Choice-Project-Plan.html">
+   Choice Project Plan
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Choice-Project/Choice-Project-Showcase-Outline.html">
+   Choice Project Showcase Outline
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Resources
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Resources/Resources.html">
+   Resources
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Resources/Autodesk-Tinkercad-Circuits.html">
+   Autodesk Tinkercad Circuits
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Resources/Autodesk-Tinkercad-Codeblocks.html">
+   Autodesk Tinkercad Codeblocks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Resources/Code_org-Studio.html">
+   Code.org Studio
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Resources/Khan-Academy-Computing.html">
+   Khan Academy Computing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Resources/Makecode-Arcade.html">
+   Makecode Arcade
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Resources/Makecode-Minecraft.html">
+   Makecode Minecraft
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Resources/Scratch_org.html">
+   Scratch.org
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Projects
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Projects.html">
+   Projects
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Air-Pressure-Rockets.html">
+   STEM Project Air Pressure Rockets
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Indeces
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Indeces/Indeces.html">
+   Indeces
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Indeces/Elementary-Inquiry-2016-2017.html">
+   2016-2017 Elementary Inquiry
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Indeces/Markdown.html">
+   Markdown Files
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/Projects/3D-Design.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FProjects/3D-Design.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#survey2-design-in-3d">
+   Survey2 Design in 3D
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#choice-assignments">
+     Choice Assignments
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#tinkercad-codeblocks">
+     Tinkercad Codeblocks
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#tinkercad">
+     Tinkercad
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tinkercad-floorplan-of-your-house-gdoc">
+   Tinkercad Floorplan of your House - GDoc
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#general-stuff">
+     General Stuff
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-does-this-all-translate-to">
+     What does this all translate to?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#code-based-city-map">
+   Code-based city map
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#p2-ct-for-3d-design">
+   P2 CT for 3D Design
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#instructions">
+     Instructions
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#computational-thinking-in-3d-design">
+       Computational Thinking in 3D Design
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#student-work">
+     Student work
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#points">
+     Points
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#rubric">
+     Rubric
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#adst-man-fab">
+       ADST Man-Fab
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#misc">
+   Misc
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="d-design">
+<h1><a class="reference internal" href="#"><span class="doc std std-doc">3D-Design</span></a><a class="headerlink" href="#d-design" title="Permalink to this headline">¶</a></h1>
+<p>Added: 20210727-1726</p>
+<p>#STEMProjectTopics #ICTCourse #Virtual-Robotics</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="Projects.html"><span class="doc std std-doc">Projects</span></a></p></li>
+<li><p><span class="xref myst">STEM09-ADST-Survey</span></p></li>
+<li><p><a class="reference internal" href="#"><span class="doc std std-doc">3D-Design</span></a></p></li>
+<li><p><a class="reference external" href="https://drive.google.com/drive/folders/1p6zC_Isz9wNW7_GywKtTEJKlIExsY6uj?usp=sharing">3D Design - Google Drive</a></p></li>
+<li><p><a class="reference external" href="https://vsbworld-my.sharepoint.com/:f:/r/personal/cjanze_vsb_bc_ca/Documents/STEM09/P2-3DDesign?csf=1&amp;web=1&amp;e=kBS0vc">P2-3DDesign</a> - 192 Resources to vet</p></li>
+<li><p>see: <span class="xref myst">ICT-Elements-of-Code</span></p></li>
+<li><p>see: <span class="xref myst">ICT-Rubric</span></p></li>
+</ul>
+<div class="section" id="survey2-design-in-3d">
+<h2>Survey2 Design in 3D<a class="headerlink" href="#survey2-design-in-3d" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://teams.microsoft.com/l/message/19:e9584c19ad944e3f9bf3c26442cecc4d&#64;thread.tacv2/1621957080386?tenantId=0b8a2e58-7b30-4a08-bab7-d75559e0e3a5&amp;groupId=70cd545c-5227-41de-af89-f32585f43143&amp;parentMessageId=1621957080386&amp;teamName=STEM">Survey2: Design in 3D</a></p>
+<div class="section" id="choice-assignments">
+<h3>Choice Assignments<a class="headerlink" href="#choice-assignments" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Tinkercad: see <a class="reference external" href="https://docs.google.com/document/d/19F4BUN1FLyCNFuPFP3ZkJPlq-RJ5m0q25ctKKuxHXmI/edit?usp=sharing">Tinkercad Floorplan of your House</a></p></li>
+<li><p>Code-blocks: see <a class="reference external" href="https://docs.google.com/document/d/1SsZHXthlSIbMtIuIE2PVeJuhHZfcue6zwDJMZ9YCjOA/edit?usp=sharing">Code-based city-blocks</a></p></li>
+</ul>
+</div>
+<div class="section" id="tinkercad-codeblocks">
+<h3>Tinkercad Codeblocks<a class="headerlink" href="#tinkercad-codeblocks" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.tinkercad.com/joinclass/Q6J3MAQ529MA">https://www.tinkercad.com/joinclass/Q6J3MAQ529MA</a></p></li>
+<li><p><a class="reference external" href="https://www.tinkercad.com/learn/codeblocks">https://www.tinkercad.com/learn/codeblocks</a></p>
+<ul>
+<li><p><a class="reference external" href="https://www.instructables.com/Learn-to-Design-With-Code-Using-Tinkercad-Codebloc/">https://www.instructables.com/Learn-to-Design-With-Code-Using-Tinkercad-Codebloc/</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1yOEMALie4Vrc1898cyPuHZDkC8vLCBx6Bn3Qsj4XtCc/edit?usp=sharing">Play With Variables by Engineering a Personalized Snow Flake</a> - Google Doc</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1GSCBjFZBntIVybRnekqQ7-6TQ90zcrfOpzrZ6sKXzt0/edit?usp=sharing">Design a Bursting Star</a> - GDoc</p></li>
+<li><p>Design your own</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="tinkercad">
+<h3>Tinkercad<a class="headerlink" href="#tinkercad" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>To login to Tinkercad classroom either</p>
+<ul>
+<li><p><a class="reference external" href="https://tinkercad.com/joinclass">https://tinkercad.com/joinclass</a></p></li>
+<li><p>paste in the code: Q6J3MAQ529MA</p></li>
+<li><p>Join with Nickname (first name, no caps)</p></li>
+</ul>
+</li>
+<li><p>or:</p>
+<ul>
+<li><p>Go to your class at <a class="reference external" href="https://www.tinkercad.com/joinclass/Q6J3MAQ529MA">https://www.tinkercad.com/joinclass/Q6J3MAQ529MA</a></p></li>
+<li><p>Enter your Nickname (first name, no caps)</p></li>
+</ul>
+</li>
+<li><p>Grind through the “Direct Starters” (<a class="reference external" href="https://www.tinkercad.com/learn/designs/learning">https://www.tinkercad.com/learn/designs/learning</a>)</p></li>
+<li><p>Check out the projects (<a class="reference external" href="https://www.tinkercad.com/learn/designs/projects">https://www.tinkercad.com/learn/designs/projects</a>), specifically:</p>
+<ul>
+<li><p>Build a Tinkercad House (<a class="reference external" href="https://www.tinkercad.com/learn/overview/OG2TEUVIQFHI7DT">https://www.tinkercad.com/learn/overview/OG2TEUVIQFHI7DT</a>)</p></li>
+<li><p>How to Design the Best Boat in Tinkercad (<a class="reference external" href="https://www.tinkercad.com/learn/overview/OHEOOINJ7QGENIP">https://www.tinkercad.com/learn/overview/OHEOOINJ7QGENIP</a>)</p></li>
+<li><p>Explore Buoyancy: Designing Sea Craft (<a class="reference external" href="https://www.tinkercad.com/learn/overview/OGGLXOCIRXTM0OB">https://www.tinkercad.com/learn/overview/OGGLXOCIRXTM0OB</a>)</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="tinkercad-floorplan-of-your-house-gdoc">
+<h2><a class="reference external" href="https://docs.google.com/document/d/19F4BUN1FLyCNFuPFP3ZkJPlq-RJ5m0q25ctKKuxHXmI/edit">Tinkercad Floorplan of your House</a> - GDoc<a class="headerlink" href="#tinkercad-floorplan-of-your-house-gdoc" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Tinkercad: 1/100th or 1/50th scale floor plan of your house</p></li>
+<li><p>Minimal expectation: a scaled floor plan (<a class="reference external" href="https://www.instructables.com/Create-a-Floor-Plan-of-Your-House-1/">Tinkercad slice that looks like the Revit Extended Plan</a>) of each level of your house:<img alt="" src="https://lh6.googleusercontent.com/WrtQdj9VQkvPoBtdY_Y3NmuplS5ea6UvK46CxIWxL97lCG2Ov33yBRpucRgbvqo5f0TZimH0lM_-vxm0bQpWHCMefC4iLovJMt_1Z-K3zEd0Jm282Yi17DYdBI1OgeNXCXSdfhCM" /></p></li>
+</ul>
+<div class="section" id="general-stuff">
+<h3>General Stuff<a class="headerlink" href="#general-stuff" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Vancouver “plots” (the chunk of land your house is on; your house and yard) are standardized to, on average, 90’ deep by 33 ⅓’ wide.</p></li>
+<li><p>For historical reasons (fires, sidewalks, plumbing service, electrical service), house have to be ‘set-back’ certain distances from the edge of the property, leading to an average house size of about 20’ x 20’</p></li>
+<li><p>Walls (considering both interior and exterior) are, on average, 6’’ in thickness</p></li>
+<li><p>Floors (ceilings) are, on average, 1’ in thickness</p></li>
+<li><p>Doors, hallways are, on average 1 ½ people wide (~3’ or ~900 mm)</p></li>
+<li><p>Stairs have an approximate ⅔ rise over run - meaning that if the tread (or step) is a 1’, the runner (or lift) is 8”.  This also means that to rise 8’ to the next level would require 12’ of horizontal stairs (3/2 run over rise or 150%).  In full size mm, this would be 2400 mm (12 * 200 mm) rise to 3600 mm (12 * 300 mm) run</p></li>
+<li><p>A “floor” is usually either 9’ or 10’, including the 1’ of the ‘roof’ separating the two ‘floors’ (to say that a room has “8’ ceilings” implies that there is 8’ between lower horizontal surface - the floor -  and upper horizontal surface - the ceiling.  This room would be considered 9’ tall, as it would also include the 1’ of the rafters and finish of the ceiling/floor above)</p></li>
+</ul>
+</div>
+<div class="section" id="what-does-this-all-translate-to">
+<h3>What does this all translate to?<a class="headerlink" href="#what-does-this-all-translate-to" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>6” (six inches) is ~15 cm or 150 mm</p></li>
+<li><p>1’ (one foot) is ~30 cm or 300 mm</p></li>
+<li><p>20’ (twenty feet) is ~ 6.1 m or 6100 mm</p></li>
+<li><p>Scale factor of 1/100 would give you:</p>
+<ul>
+<li><p>a rough house size of 60 mm</p></li>
+<li><p>wall thickness of 1.5 mm</p></li>
+<li><p>floor thickness of 3 mm</p></li>
+<li><p>hallways and doors of 9 mm</p></li>
+<li><p>stairs with a run over rise of 3 mm/2 mm</p></li>
+</ul>
+</li>
+<li><p>Scale factor of 1/50 would give you:</p>
+<ul>
+<li><p>a rough house size of 120 mm</p></li>
+<li><p>wall thickness of 3 mm</p></li>
+<li><p>floor thickness of 6 mm</p></li>
+<li><p>hallways and doors of 18 mm</p></li>
+<li><p>stairs with a run over rise of 6 mm/4 mm</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="code-based-city-map">
+<h2>Code-based city map<a class="headerlink" href="#code-based-city-map" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Can you reproduce the following cityscape with codeblocks?</p></li>
+<li><p>Buildings are 20x20 units with random heights and different roofs (by row).  There is a 2 unit separation between neighboring buildings.  Blocks are a 2x4 grid of buildings.  Streets are the same units as buildings.</p></li>
+</ul>
+<p><img alt="" src="https://lh3.googleusercontent.com/AYBlkfSmEwjXlxKjiXEZu95-IUfMTVo2Z-RH1AZHpefWiGw2tSaNrqCKkisIvYuQSsQAdgU9Ww6d7w9tdtKp1IoZ6mweI28XWwcO3CZJK3j8H4ACdCajwvnh3OC7yrbLQBzAffR0" /></p>
+<p>See below for sample code to make a row of buildings.</p>
+<p><img alt="" src="https://lh5.googleusercontent.com/CilnEiEKUCsymVifzFuqSAApQnzyRpGzsfm_qHPB_mwKfqESnzqgGDkld0752UDJXOwAxXui129imUyhRj5fz-vfWxhagoDE7LhfLl7rrGYM7fB51D8SU2O44NdxRWsHO6vJhAHc" /></p>
+<p>Extending: Can you use the following code to alternate building types in the same row?  Check it out in action at <a class="reference external" href="https://www.tinkercad.com/codeblocks/edit?doc=eFib02AeVac">https://www.tinkercad.com/codeblocks/edit?doc=eFib02AeVac</a></p>
+<p><img alt="" src="https://lh3.googleusercontent.com/4haQjtpIVlaaR1OT_-dl6m0Rt5KlnNk6hZD5EnldaEn9AsqwzNFEvgH63X4emRvtPshAH8g__X4euCaOtKrp__UjX-FDqCHBGnhFwjtpg5Hcngibo-UIJTFw3kv_ZB7ubPsdV1y1" /></p>
+</div>
+<div class="section" id="p2-ct-for-3d-design">
+<h2>P2 CT for 3D Design<a class="headerlink" href="#p2-ct-for-3d-design" title="Permalink to this headline">¶</a></h2>
+<p>Due tomorrow at 11:59 PM</p>
+<div class="section" id="instructions">
+<h3>Instructions<a class="headerlink" href="#instructions" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="computational-thinking-in-3d-design">
+<h4>Computational Thinking in 3D Design<a class="headerlink" href="#computational-thinking-in-3d-design" title="Permalink to this headline">¶</a></h4>
+<p>In the attached PowerPoint, use screen captures from your Tinkercad assignment to demonstrate how you APPLIED the following Computational Thinking practices:</p>
+<ul class="simple">
+<li><p><span class="xref myst">ICT-Elements-of-Code</span></p></li>
+</ul>
+<p>Please attach an image of your design for me to see using the “Add work”  link below.</p>
+<p>For:</p>
+<ul class="simple">
+<li><p>3D Designs: use the “Send To” button (top right) &gt; “Picture of your design”</p></li>
+<li><p>Codeblocks: use the “Share” button (top right) &gt; Animated GIF</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="student-work">
+<h3>Student work<a class="headerlink" href="#student-work" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://vsbworld.sharepoint.com/:p:/r/sites/JanzeMADIT09CO1001ATempletonSecondary2021/_layouts/15/doc2.aspx?sourcedoc=%7B3CE25BC1-A0F5-4086-9D01-6739523A9F3A%7D&amp;file=Computational%20Thinking%20-%203D%20Design%201.pptx&amp;action=edit&amp;mobileredirect=true&amp;wdOrigin=TEAMS-ASSIGN-WEB.ASSIGN-STUD-VIEW.TCHR">Computational Thinking - 3D Design 1.pptx</a></p>
+</div>
+<div class="section" id="points">
+<h3>Points<a class="headerlink" href="#points" title="Permalink to this headline">¶</a></h3>
+<p>1 point possible</p>
+</div>
+<div class="section" id="rubric">
+<h3>Rubric<a class="headerlink" href="#rubric" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="adst-man-fab">
+<h4>ADST Man-Fab<a class="headerlink" href="#adst-man-fab" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><span class="xref myst">CT-Rubric</span></p></li>
+</ul>
+<p><a class="reference external" href="https://teams.microsoft.com/l/message/19:e9584c19ad944e3f9bf3c26442cecc4d&#64;thread.tacv2/1622234170050?tenantId=0b8a2e58-7b30-4a08-bab7-d75559e0e3a5&amp;groupId=70cd545c-5227-41de-af89-f32585f43143&amp;parentMessageId=1622234170050&amp;teamName=STEM%209%20Templeton%202021&amp;channelName=P2-ADST%20Survey&amp;createdTime=1622234170050">Assignments: P2 CT for 3D Design | Due May 31</a> posted in STEM 9 Templeton 2021 / P2-ADST Survey at May 28, 1:36:10 PM</p>
+</div>
+</div>
+</div>
+<div class="section" id="misc">
+<h2>Misc<a class="headerlink" href="#misc" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1KsXRGj3WHgjliRUIFqbsB9AWRYDnKtgbcUGe-6FSPZ0/edit#heading=h.wo3yuotjvvsk">https://docs.google.com/document/d/1KsXRGj3WHgjliRUIFqbsB9AWRYDnKtgbcUGe-6FSPZ0/edit#heading=h.wo3yuotjvvsk</a> | How to Teach the Language of 3D Modeling and Design - Google Docs</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1wtku4RMunimG4S9zfb4Lsj-ptsP5R_o6-nGPEzoNomg/edit#heading=h.y66trngogbfb">https://docs.google.com/document/d/1wtku4RMunimG4S9zfb4Lsj-ptsP5R_o6-nGPEzoNomg/edit#heading=h.y66trngogbfb</a> | Learn to Design With Code Using Tinkercad Codeblocks: a Quick-Start Guide - Google Docs</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1v_kTP0Dk_SvIRRbaiX1Shx6E8qsFqSMb5Ryd2_IcJI8/edit#heading=h.sfp9o2micb18">https://docs.google.com/document/d/1v_kTP0Dk_SvIRRbaiX1Shx6E8qsFqSMb5Ryd2_IcJI8/edit#heading=h.sfp9o2micb18</a> | Build a Tinkercad House - Google Docs</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1aUM-ZNg3mcVUn0hThXTLHU9mvZphrvtnubA_2LvW8gw/edit#heading=h.l0e3jwaif14y">https://docs.google.com/document/d/1aUM-ZNg3mcVUn0hThXTLHU9mvZphrvtnubA_2LvW8gw/edit#heading=h.l0e3jwaif14y</a> | Designing With Algorithms in Tinkercad - Google Docs</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1yOEMALie4Vrc1898cyPuHZDkC8vLCBx6Bn3Qsj4XtCc/edit#heading=h.sxue963nkgjq">https://docs.google.com/document/d/1yOEMALie4Vrc1898cyPuHZDkC8vLCBx6Bn3Qsj4XtCc/edit#heading=h.sxue963nkgjq</a> | Play With Variables by Engineering a Personalized Snow Flake - Google Docs</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1GSCBjFZBntIVybRnekqQ7-6TQ90zcrfOpzrZ6sKXzt0/edit">https://docs.google.com/document/d/1GSCBjFZBntIVybRnekqQ7-6TQ90zcrfOpzrZ6sKXzt0/edit</a> | Design a Bursting Star - Google Docs</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1T0gyUL293wfm_Q-0pvUEcW2fq5WIf2ZtnmIyStN52xg/edit#heading=h.3tvjaw8xetnr">https://docs.google.com/document/d/1T0gyUL293wfm_Q-0pvUEcW2fq5WIf2ZtnmIyStN52xg/edit#heading=h.3tvjaw8xetnr</a> | Using Loops in Tinkercad to Design a Bursting Star - Google Docs</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1y566xFzGXTjU4rHkwgA08TCd-0sbVlBgFCx4crewM8s/edit#heading=h.83ni69pvytug">https://docs.google.com/document/d/1y566xFzGXTjU4rHkwgA08TCd-0sbVlBgFCx4crewM8s/edit#heading=h.83ni69pvytug</a> | How to Design 3D Population Maps Using Tinkercad : 11 Steps (with Pictures) - Google Docs</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1NQzs-ycK_vYIp9NPeQUgXwYxctvZ66lyQ9IKM6t22MQ/edit#heading=h.83ni69pvytug">https://docs.google.com/document/d/1NQzs-ycK_vYIp9NPeQUgXwYxctvZ66lyQ9IKM6t22MQ/edit#heading=h.83ni69pvytug</a> | Tinkercad 3D Population Maps - Google Docs</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1HvBhY3Wx0sI0s-GPAyQZBGdEfsIq4HSfXgX8UYod5Ck/edit#heading=h.y580xw4p8eqt">https://docs.google.com/document/d/1HvBhY3Wx0sI0s-GPAyQZBGdEfsIq4HSfXgX8UYod5Ck/edit#heading=h.y580xw4p8eqt</a> | Code-generated Patterns in Tinkercad - Google Docs</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/presentation/d/1lE96eAGES-Un3bYwWnDAgCiiuGlHODh5MUwxTKAY-0Q/edit#slide=id.g46cfa0507e_0_12">https://docs.google.com/presentation/d/1lE96eAGES-Un3bYwWnDAgCiiuGlHODh5MUwxTKAY-0Q/edit#slide=id.g46cfa0507e_0_12</a> | HOC Patterns Codeblocks Lesson (Tea Light) - Google Slides</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1zTunxId2ZH1wxB81BfwJYXM7WjXcWGpimQdeOBPTvAc/edit#heading=h.o32dm07h4oxg">https://docs.google.com/document/d/1zTunxId2ZH1wxB81BfwJYXM7WjXcWGpimQdeOBPTvAc/edit#heading=h.o32dm07h4oxg</a> | Tinkercad House With Shape Generators - Google Docs</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1NL-Xbugry8hoBxBn8nMIa-NshHnJEbAKsrZ--fZRd1A/edit#heading=h.67k8f42cyhas">https://docs.google.com/document/d/1NL-Xbugry8hoBxBn8nMIa-NshHnJEbAKsrZ–fZRd1A/edit#heading=h.67k8f42cyhas</a> | Setting Up Parameters for the House - Google Docs</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1mZ_HuI-6C4HmYNm_UX1oq-n1awZ4D9AK5wIQKqAL0VY/edit#heading=h.fbd0he7kn7g6">https://docs.google.com/document/d/1mZ_HuI-6C4HmYNm_UX1oq-n1awZ4D9AK5wIQKqAL0VY/edit#heading=h.fbd0he7kn7g6</a> | Code your 3D designs with Tinkercad’s new Codeblocks app - Google Docs</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1jxGtP15uo8YjvC8SHz5ex9DCNXNT7zsY4gAbeVN1G6Q/edit#heading=h.98ntooi219bj">https://docs.google.com/document/d/1jxGtP15uo8YjvC8SHz5ex9DCNXNT7zsY4gAbeVN1G6Q/edit#heading=h.98ntooi219bj</a> | Make it Real Student Design Challenge #3 - Google Docs</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1zOeQxMbFErmsk83oQm8_uVnpOzH0bQOr-LbckHSCUTY/edit#heading=h.3ia5gddai36u">https://docs.google.com/document/d/1zOeQxMbFErmsk83oQm8_uVnpOzH0bQOr-LbckHSCUTY/edit#heading=h.3ia5gddai36u</a> | Drawing a figure of eight knot inside Tinkercad using JavaScript - Google Docs</p></li>
+</ul>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./Projects"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By The Jupyter Book Community<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
