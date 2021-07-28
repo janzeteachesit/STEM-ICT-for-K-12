@@ -1,0 +1,876 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Egg Drop &#8212; STEM/ICT for K-12</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.e8e5499552300ddf5d7adccae7cc3b70.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Coding with Minecraft" href="Minecraft-EE-Coding.html" />
+    <link rel="prev" title="STEM Project Air Pressure Rockets" href="Air-Pressure-Rockets.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">STEM/ICT for K-12</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro.html">
+   Welcome to STEM ICT for K-12
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Overview
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Pedagogy/Definitions.html">
+   Definitions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Pedagogy/ADST.html">
+   ADST
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Pedagogy/Computational-Thinking.html">
+   Computational Thinking
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Pedagogy/ICT.html">
+   ICT
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Pedagogy/ICT-Elements-of-Code.html">
+   ICT Elements of Code
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Pedagogy/New-BC-Curriculum.html">
+   New Curriculum
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Pedagogy/PBL.html">
+   PBL
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Pedagogy/STEM.html">
+   STEM
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Choice Project
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Choice-Project/Choice-Project-Overview.html">
+   Choice Project
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Choice-Project/Choice-Project-Plan.html">
+   Choice Project Plan
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Choice-Project/Choice-Project-Showcase-Outline.html">
+   Choice Project Showcase Outline
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Projects
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Projects.html">
+   Projects
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="3D-Design.html">
+   <span class="xref myst">
+    3D-Design
+   </span>
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Air-Pressure-Rockets.html">
+   STEM Project Air Pressure Rockets
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Digital Egg Drop
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Minecraft-EE-Coding.html">
+   Coding with Minecraft
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Virtual-Robotics.html">
+   Virtual Robotics
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Rubrics
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Rubrics/Rubrics.html">
+   Rubrics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Rubrics/ICT-Rubric.html">
+   ICT-Rubric
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Resources
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Resources/Resources.html">
+   Resources
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Resources/Autodesk-Tinkercad-Circuits.html">
+   Autodesk Tinkercad Circuits
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Resources/Autodesk-Tinkercad-Codeblocks.html">
+   Autodesk Tinkercad Codeblocks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Resources/Code_org-Studio.html">
+   Code.org Studio
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Resources/Khan-Academy-Computing.html">
+   Khan Academy Computing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Resources/Makecode-Arcade.html">
+   Makecode Arcade
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Resources/Makecode-Minecraft.html">
+   Makecode Minecraft
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Resources/Scratch_org.html">
+   Scratch.org
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Indeces
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Indeces/Indeces.html">
+   Indeces
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Indeces/Elementary-Inquiry-2016-2017.html">
+   2016-2017 Elementary Inquiry
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Indeces/Markdown.html">
+   Markdown Files
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Indeces/STEM09-ADST-Survey.html">
+   STEM 9 ADST Survey
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/Projects/Digital-Egg-Drop.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://janzeteachesit.github.io/STEM-ICT-for-K-12"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://janzeteachesit.github.io/STEM-ICT-for-K-12/issues/new?title=Issue%20on%20page%20%2FProjects/Digital-Egg-Drop.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id1">
+   Digital Egg Drop
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#description">
+     Description
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#key-assignments-dates">
+     Key Assignments/Dates
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#rps-code">
+       RPS code
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#coding-explanation">
+       Coding Explanation
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#capsule-build">
+       Capsule Build
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#data-collected">
+       Data Collected
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#artifacts">
+     Artifacts
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#links">
+     Links
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#p1-ded-microbit-day-to-day">
+   P1 DED microbit day-to-day
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#micro-bit-1">
+     micro:bit 1
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#getting-started-with-micro-bit">
+       Getting Started with micro:bit
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#day-1">
+         Day 1
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#day-2">
+         Day 2
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#day-3">
+         Day 3
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#day-4">
+         Day 4
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#micro-bit-2">
+     micro:bit 2
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#micro-bit-sensors">
+       micro:bit sensors
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#day-5">
+         Day 5
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#day-6">
+         Day 6
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#day-7">
+         Day 7
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#day-8">
+         Day 8
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#day-9">
+         Day 9
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#micro-bit-3">
+     micro:bit 3
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#micro-bit-data-collection">
+       micro:bit data collection
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#day-10">
+         Day 10
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#day-11-envelope-test-1-0">
+         Day 11 (“Envelope Test 1.0”)
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#day-12">
+         Day 12
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#day-13-moar-testing">
+         Day 13 - Moar Testing
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#day-14">
+         Day 14
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#variations">
+   Variations
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#extra-notes">
+   Extra Notes
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="digital-egg-drop">
+<h1>Digital Egg Drop<a class="headerlink" href="#digital-egg-drop" title="Permalink to this headline">¶</a></h1>
+<p>created: 20210725-0207</p>
+<p>#STEMProject #STEM-Planning</p>
+<ul class="simple">
+<li><p><span class="xref myst">Project-Digital-Egg-Drop</span></p></li>
+<li><p><a class="reference external" href="https://drive.google.com/drive/folders/1lyuUePYdmPwC6GQk_YXvlurpisqE-iwA?usp=sharing">Egg Drop - GDrive</a></p></li>
+<li><p><a class="reference external" href="https://vsbworld-my.sharepoint.com/:f:/r/personal/cjanze_vsb_bc_ca/Documents/STEM09/P1-CrashTestDummies?csf=1&amp;web=1&amp;e=shn4ew">P1-CrashTestDummies - OneDrive</a></p></li>
+<li><p><span class="xref myst">Project-Egg-Drop</span></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1FgFe37UD2wc_TP6gastdE3cGLjWk_ilROr_RR9G744M/edit">Getting Started - DigitalEggDrop - Google Docs</a></p></li>
+<li><p><a class="reference external" href="https://drive.google.com/drive/folders/1BEk4WpUvIarEK3vEreFhsmKjHMSbG_NK">Project-DigitalEggDrop</a></p></li>
+<li><p><a class="reference external" href="https://drive.google.com/drive/search?q=microbit">https://drive.google.com/drive/search?q=microbit</a></p></li>
+<li><p><a class="reference external" href="https://drive.google.com/drive/search?q=egg%20drop">https://drive.google.com/drive/search?q=egg%20drop</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1-HzE2dI9OC4j9TJUy4V8OLedADaZUKUFGbkbFMFZBjE/edit#heading=h.b8v2c5mu0g66">STEM 08 2020-09 P1-Coding</a></p></li>
+</ul>
+<p><img alt="image name" src="media/STEM1112-WirelessRover-927079252.png" /></p>
+<p>**<img alt="" src="https://lh3.googleusercontent.com/1jZzqGX7vJqq8D1skt8IACTse0cSnGUKONY1QUvSMJs_FzQUFwMHBK9QAUilTnN_P88o1WmpT5ViB0AH7y9fRazpAMl1VeeMRd3Q3B39TUnW8qNOO209rwos2LJI-wvBlraZ3bCh" /></p>
+<div class="section" id="id1">
+<h2>Digital Egg Drop<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="description">
+<h3>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h3>
+<p>This classic physics experiment is a really fun one! You get to create a descent vehicle for an egg dropped from a great height that helps the egg land gently enough to avoid going SPLAT!</p>
+<p>Instead of testing design iterations on precious eggs, we can first prove out our vehicles using a micro:bit! It’s packed with sensors and has a display and speaker for feedback – we’ll use those to study the impact g-force of our landing. Once we’re satisfied with the data, we can swap out for the more fragile ovoid!</p>
+</div>
+<div class="section" id="key-assignments-dates">
+<h3>Key Assignments/Dates<a class="headerlink" href="#key-assignments-dates" title="Permalink to this headline">¶</a></h3>
+<p>Assignment</p>
+<p>Competencies</p>
+<p>Due Date</p>
+<p>RPS code</p>
+<p>Coding Explanation</p>
+<p>Capsule Build</p>
+<p>Data Collected</p>
+<div class="section" id="rps-code">
+<h4>RPS code<a class="headerlink" href="#rps-code" title="Permalink to this headline">¶</a></h4>
+<p>The key here will be to get to a physical model quickly. With complex situations, it is often easiest to use the first build to help you understand what really matters! Build a working model–however basic–and analyze it to help design your beta model.  Extending will be a working system that achieves an optimal balance between the needs of the user and the constraints of the moment, along with a report that outlines and analyzes the main parts of the model.</p>
+</div>
+<div class="section" id="coding-explanation">
+<h4>Coding Explanation<a class="headerlink" href="#coding-explanation" title="Permalink to this headline">¶</a></h4>
+<p>The key here will be to get to a physical model quickly. With complex situations, it is often easiest to use the first build to help you understand what really matters! Build a working model–however basic–and analyze it to help design your beta model.  Extending will be a team that, without supervision, can choose tools and processes to create a high-quality artifact.</p>
+</div>
+<div class="section" id="capsule-build">
+<h4>Capsule Build<a class="headerlink" href="#capsule-build" title="Permalink to this headline">¶</a></h4>
+<p>A showcase of the science and mathematics of catapults. The goal is to show how you controlled the system to create an optimal system.  Extending will describe a list of variables, estimated with appropriate units, calculations where necessary, references, and appropriate units, as well as evaluating the quality and reliability of the estimates and potential risks due to error.</p>
+</div>
+<div class="section" id="data-collected">
+<h4>Data Collected<a class="headerlink" href="#data-collected" title="Permalink to this headline">¶</a></h4>
+<p>Let the warfare begin!  With any luck, your “gamma model” will bring all the benefits of three weeks of design and testing. Beyond the performance of your device, extending will reflect on the learning of the group and share how it connects to our experiences and efforts.  Extending in measurement will be a one-page summary of the efficiency of your system based on your measurement.</p>
+</div>
+</div>
+<div class="section" id="artifacts">
+<h3>Artifacts<a class="headerlink" href="#artifacts" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1SWK25yKm3z00srCtShE1CesU796wWoqOUon2nId9brk/edit?usp=sharing">P1 Final RPS code</a> - Assignment</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1gBYWBjUCoa56Z-wQ8AilZxwZyRnO1yjTfradcTnjIfQ/edit?usp=sharing">P1 DED Coding Explanation</a> - Assignment</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1RtWIMO9oaqqCS8EwO0r9qgSIj4qsynUrIUvV0Wmy874/edit?usp=sharing">P1 DED Data Collected</a> - Assignment</p></li>
+<li></li>
+</ul>
+</div>
+<div class="section" id="links">
+<h3>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://teams.microsoft.com/l/message/19:5604ea583407419bb9db3dce3a795b38%40thread.tacv2/1614360713362?tenantId=0b8a2e58-7b30-4a08-bab7-d75559e0e3a5&amp;groupId=28e46aa5-5ac0-4b2d-81b1-496c5ffc7065&amp;parentMessageId=1614360713362&amp;teamName=STEM%2010%20Templeton%202021&amp;channelName=F2F-Catapults&amp;createdTime=1614360713362">Fabrication Terms</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1OXz3S9G8NDxyiXZfq5vfeRf4gWdmXdb68H-bJ9_D054/edit?usp=sharing">DED microbit day-to-day</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/forms/d/186nN4KALNSm88mv-2K-cu4LYNAY8asbElitMxZVSxgw/edit?usp=sharing">Digital Egg Drop Capsule Info (Form)</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/spreadsheets/d/1INnN4KUSLw-gC3cewzMxqHQNfvmcUgCPMHpLE6OrtQI/edit?usp=sharing">Digital Egg Drop Capsule Info (Responses)</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/12LBceqHDhjoBYo5hRyH86aSgUJeFZZPnoV7d-2zXUU0/edit?usp=sharing">How To Datalog Using Only the micro:bit</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1hxJmdaFjCHFB3lzdPloEC4oeV7uH2YzaFyMnGZcSA8o/edit?usp=sharing">How to Install Chrome Extensions in Microsoft Edge</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1agkiF-zIwZLiBeE-B8ax6XGbEb25yJ_aZ2vhx9u7C0w/edit?usp=sharing">Update micro:bit firmware</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/13LaSUHOxx11eWCve7pMmYhJJrXFXoHJmgoZa-GXKfhw/edit?usp=sharing">Datalogging with the micro:bit</a>**</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="p1-ded-microbit-day-to-day">
+<h2>P1 DED microbit day-to-day<a class="headerlink" href="#p1-ded-microbit-day-to-day" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="micro-bit-1">
+<h3>micro:bit 1<a class="headerlink" href="#micro-bit-1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://teams.microsoft.com/l/message/19:005f5ccf17d34b67a1f52f2fd60e7b8d&#64;thread.tacv2/1619644504145?tenantId=0b8a2e58-7b30-4a08-bab7-d75559e0e3a5&amp;groupId=70cd545c-5227-41de-af89-f32585f43143&amp;parentMessageId=1619644504145&amp;teamName=STEM">micro:bit 1</a></p></li>
+</ul>
+<div class="section" id="getting-started-with-micro-bit">
+<h4>Getting Started with micro:bit<a class="headerlink" href="#getting-started-with-micro-bit" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="day-1">
+<h5>Day 1<a class="headerlink" href="#day-1" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p><a class="reference external" href="https://makecode.microbit.org/">https://makecode.microbit.org/</a></p></li>
+<li><p>Dice tutorial</p></li>
+<li><p>3 other tutorials of your choice</p></li>
+<li><p>Download code and upload to OneDrive (Teams &gt; Files &gt; OneDrive)</p></li>
+</ul>
+</div>
+<div class="section" id="day-2">
+<h5>Day 2<a class="headerlink" href="#day-2" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p>Get micro:bit kit</p></li>
+<li><p>Download and load  code from at least one tutorial onto your micro:bit</p></li>
+<li><p>Complete Rock Paper Scissors (under Games) and Micro Chat (under Tutorials)</p></li>
+<li><p>Complete Rock Paper Scissors Teams (under Radio Games) - NOT a tutorial; instructions only (<a class="reference external" href="https://makecode.microbit.org/projects/rps-teams">https://makecode.microbit.org/projects/rps-teams</a>)- beware can be confusing.</p></li>
+</ul>
+</div>
+<div class="section" id="day-3">
+<h5>Day 3<a class="headerlink" href="#day-3" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p>Elements of Code &amp; Computational Thinking (<a class="reference external" href="https://vsbworld.sharepoint.com/:p:/r/sites/JanzeMADIT09CO1001ATempletonSecondary2021/Shared%20Documents/P1-Crash%20Test%20Dummies/Computational%20Thinking.pptx?d=w01d9b83f7bf9494a89434245ae538d9f&amp;csf=1&amp;web=1&amp;e=7unpqo">Computational Thinking.pptx</a>)</p></li>
+<li><p>Win-Loss comparison (see RPS_win_loss_v1 and RPS_win_loss_v2 below)</p></li>
+</ul>
+</div>
+<div class="section" id="day-4">
+<h5>Day 4<a class="headerlink" href="#day-4" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p>Keeping and displaying score, declaring a match winner (see RPS_win_loss_v2_1  below)</p></li>
+<li><p>change from user vs bot to p1 vs p2 over microchat</p></li>
+<li><p>[microbit-RPS_win_loss_v1.hex](<a class="reference external" href="https://vsbworld.sharepoint.com/sites/JanzeMADIT09CO1001ATempletonSecondary2021/Shared">https://vsbworld.sharepoint.com/sites/JanzeMADIT09CO1001ATempletonSecondary2021/Shared Documents/P1-Crash Test Dummies/microbit-RPS_win_loss_v1.hex</a> )</p></li>
+<li><p><span class="xref myst">Computational Thinking.pptx</span></p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="micro-bit-2">
+<h3>micro:bit 2<a class="headerlink" href="#micro-bit-2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://teams.microsoft.com/l/message/19:005f5ccf17d34b67a1f52f2fd60e7b8d&#64;thread.tacv2/1620061284107?tenantId=0b8a2e58-7b30-4a08-bab7-d75559e0e3a5&amp;groupId=70cd545c-5227-41de-af89-f32585f43143&amp;parentMessageId=1620061284107&amp;teamName=STEM">micro:bit 2</a></p></li>
+</ul>
+<div class="section" id="micro-bit-sensors">
+<h4>micro:bit sensors<a class="headerlink" href="#micro-bit-sensors" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="day-5">
+<h5>Day 5<a class="headerlink" href="#day-5" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p><a class="reference external" href="https://microbit.org/projects/make-it-code-it/sunlight-sensor/">https://microbit.org/projects/make-it-code-it/sunlight-sensor/</a></p></li>
+<li><p><a class="reference external" href="https://microbit.org/projects/make-it-code-it/thermometer/">https://microbit.org/projects/make-it-code-it/thermometer/</a></p></li>
+<li><p><a class="reference external" href="https://microbit.org/projects/make-it-code-it/compass-bearing/">https://microbit.org/projects/make-it-code-it/compass-bearing/</a></p></li>
+<li><p><a class="reference external" href="https://microbit.org/projects/make-it-code-it/step-counter/">https://microbit.org/projects/make-it-code-it/step-counter/</a></p></li>
+</ul>
+</div>
+<div class="section" id="day-6">
+<h5>Day 6<a class="headerlink" href="#day-6" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p>pick your preferred code from above</p></li>
+<li><p>using the Radio blocks, figure out how to send and display the data on a second micro:bit</p></li>
+</ul>
+</div>
+<div class="section" id="day-7">
+<h5>Day 7<a class="headerlink" href="#day-7" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p><a class="reference external" href="http://blog.sparkfuneducation.com/how-to-datalog-using-only-the-microbit">How To Datalog Using Only the micro:bit</a> (one micro:bit)</p></li>
+<li><p>Systematically store data samples</p></li>
+<li><p>Start and stop the logging process</p></li>
+<li><p>Get the data off of the micro:bit</p></li>
+<li><p><a class="reference external" href="https://chrome.google.com/webstore/detail/beagle-term/gkdofhllgfohlddimiiildbgoggdpoea/related?hl=en">https://chrome.google.com/webstore/detail/beagle-term/gkdofhllgfohlddimiiildbgoggdpoea/related?hl=en</a></p></li>
+<li><p>chrome://apps/</p></li>
+<li><p>Put data into a spreadsheet document</p></li>
+</ul>
+</div>
+<div class="section" id="day-8">
+<h5>Day 8<a class="headerlink" href="#day-8" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p>Above, but using two micro:bits (sender = sensor sensor &amp; receiver = controller device)</p></li>
+<li><p>controller device: ‘A’ sends start collecting data; ‘B’ sends stop collecting data; ‘A+B’ displays data received from sensor device</p></li>
+<li><p>sensor device collects data and sends it to controller device</p></li>
+</ul>
+</div>
+<div class="section" id="day-9">
+<h5>Day 9<a class="headerlink" href="#day-9" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p>collecting, sending and displaying Accelerometer Data</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="micro-bit-3">
+<h3>micro:bit 3<a class="headerlink" href="#micro-bit-3" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://teams.microsoft.com/l/message/19:005f5ccf17d34b67a1f52f2fd60e7b8d&#64;thread.tacv2/1620661365925?tenantId=0b8a2e58-7b30-4a08-bab7-d75559e0e3a5&amp;groupId=70cd545c-5227-41de-af89-f32585f43143&amp;parentMessageId=1620661365925&amp;teamName=STEM">micro:bit 3</a></p></li>
+</ul>
+<div class="section" id="micro-bit-data-collection">
+<h4>micro:bit data collection<a class="headerlink" href="#micro-bit-data-collection" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="day-10">
+<h5>Day 10<a class="headerlink" href="#day-10" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p>pull accelerometer data from virtual single device code (<a class="reference external" href="https://makecode.microbit.org/_a56btgHisTA4">https://makecode.microbit.org/_a56btgHisTA4</a>): what does it look like in excel?</p></li>
+<li><p>how to open a .csv file in online excel?</p></li>
+<li><p>load single device code onto your micro:bit.  wave it around.  pull the data and put it into excel: what does it look like, compared to the virtual data?</p></li>
+<li><p>one column, no time.  what do we do?</p></li>
+<li><p>excel programming fixes v micro:bit programming fixes</p></li>
+</ul>
+</div>
+<div class="section" id="day-11-envelope-test-1-0">
+<h5>Day 11 (“Envelope Test 1.0”)<a class="headerlink" href="#day-11-envelope-test-1-0" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p>DataLoggerAccel_V2xx on micro:bit (make sure to decrease the pause to ~50 ms in the forever loop)</p></li>
+<li><p>connect battery</p></li>
+<li><p>“A” button</p></li>
+<li><p>put in bag and drop</p></li>
+<li><p>open bag and “B” button</p></li>
+<li><p>connect to computer</p></li>
+<li><p>(if open, close and) reopen BeagleTerm / TeraTerm</p></li>
+<li><p>reconnect to micro:bit</p></li>
+<li><p>“A+B” to display data</p></li>
+<li><p>if not logging with TeraTerm, highlight data, copy, paste into notepad and name file “microbitData.csv”</p></li>
+<li><p>Teams &gt; Files &gt; OneDrive &gt; upload your .csv file</p></li>
+<li><p>open in Excel</p></li>
+</ul>
+</div>
+<div class="section" id="day-12">
+<h5>Day 12<a class="headerlink" href="#day-12" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p>Building “Envelope 2.0”</p></li>
+<li><p>Collect and upload data from test(s) to Envelope2_0.xlsx</p></li>
+<li><p>click .csv &gt; opens in excel</p></li>
+<li><p>click “viewing” (top-right) &gt; “editing” &gt; “convert”</p></li>
+<li><p>in cell H1 type =A1</p></li>
+<li><p>drag and fill to duplicate the data in the new cells</p></li>
+<li><p>click H2 and edit to read =(A2-<span class="math notranslate nohighlight">\(A\)</span>2)/1000 to change the millisecond data to elapsed seconds</p></li>
+<li><p>highlight columns I, J, K and click “Insert” &gt; “line chart”</p></li>
+</ul>
+</div>
+<div class="section" id="day-13-moar-testing">
+<h5>Day 13 - Moar Testing<a class="headerlink" href="#day-13-moar-testing" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p>goal - the lightest, strongest “Envelope” that provides the least amount of “damage” (spikes of accelerometer data; bouncing around) to the “egg” (micro:bit).</p></li>
+<li><p>your job - provide evidence (video and data) showing progressive iterations of your redesign as you try to “soften” the landing.</p></li>
+</ul>
+</div>
+<div class="section" id="day-14">
+<h5>Day 14<a class="headerlink" href="#day-14" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p>greatest survivable distance: 1m, 3m, 5m, 7m 9m</p></li>
+<li><p>mass: grams (including parachute, if using one)</p></li>
+<li><p>volume: cubic centimeters (including parachute, if using one)</p></li>
+<li><p>at least one video reference</p></li>
+<li><p>at least data tables: 1m, …</p></li>
+<li><p>graph comparing 1m to second set/other sets of data</p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="variations">
+<h2>Variations<a class="headerlink" href="#variations" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Digital Egg Drop / Crash Test Dummies - <a class="reference external" href="https://drive.google.com/drive/folders/1BEk4WpUvIarEK3vEreFhsmKjHMSbG_NK?usp=sharing">Digital Egg Drop</a></p></li>
+<li><p>Hammer of Doom</p></li>
+<li><p><a class="reference external" href="https://classroom.google.com/u/0/w/MTUxOTYxMTg1MTha/tc/MTY5MTY5MjAxMDRa">Extreme Payload</a></p></li>
+<li><p><a class="reference external" href="https://classroom.google.com/u/0/w/MTUxOTYwMTU0MDda/tc/MjgwOTE5NDI2ODVa">Egg Cannon</a></p></li>
+</ul>
+</div>
+<div class="section" id="extra-notes">
+<h2>Extra Notes<a class="headerlink" href="#extra-notes" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://drive.google.com/drive/search?q=projects">https://drive.google.com/drive/search?q=projects</a></p></li>
+<li><p><a class="reference external" href="https://drive.google.com/drive/folders/0ANyq0nJ1_1cOUk9PVA">Shared drives &gt; STEM Archive</a></p></li>
+<li><p><a class="reference external" href="https://vsbworld.sharepoint.com/:f:/r/sites/csl2018-templeton/Shared%20Documents/Projects?csf=1&amp;web=1&amp;e=yYb6Rc">OneDrive &gt; Shared Documents &gt; Projects</a></p></li>
+</ul>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./Projects"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="Air-Pressure-Rockets.html" title="previous page">STEM Project Air Pressure Rockets</a>
+    <a class='right-next' id="next-link" href="Minecraft-EE-Coding.html" title="next page">Coding with Minecraft</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Carl Janze<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
