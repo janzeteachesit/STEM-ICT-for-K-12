@@ -14,6 +14,7 @@ Note created: 20210727-0907
 	- Conditionals (questions and choices)
 	- Iterations (loops)
 	- Functions (mini-programs)
+	- Arrays (shelves of boxes that hold values)
 
 - As well, EXTEND your previous answer to demonstrate the following Computational Thinking practices:
 	- Decomposition (what was the problem; what smaller pieces did you break it into?)

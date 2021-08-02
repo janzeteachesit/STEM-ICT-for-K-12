@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coding with Minecraft &#8212; STEM/ICT for K-12</title>
+    <title>Coding with Minecraft EE &#8212; STEM/ICT for K-12</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -166,7 +166,9 @@
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="Projects.html">
-   Projects
+   <span class="xref myst">
+    Projects
+   </span>
   </a>
  </li>
  <li class="toctree-l1">
@@ -188,7 +190,7 @@
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Coding with Minecraft
+   Coding with Minecraft EE
   </a>
  </li>
  <li class="toctree-l1">
@@ -375,263 +377,154 @@
             <nav id="bd-toc-nav">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#survey3-coding-with-minecraft-ee">
-   Survey3 Coding with Minecraft EE
+  <a class="reference internal nav-link" href="#build-and-solve-a-maze-with-a-minecraft-agent">
+   Build and Solve a Maze with a Minecraft Agent
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#coding-with-agents-in-minecraft">
-     Coding with Agents in Minecraft
+    <a class="reference internal nav-link" href="#description">
+     Description
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#key-assignments-dates">
+     Key Assignments/Dates
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#assignment-descriptions">
+     Assignment Descriptions
     </a>
     <ul class="nav section-nav flex-column">
      <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#getting-started">
-       Getting Started
+      <a class="reference internal nav-link" href="#getting-started-with-minecraft-ee">
+       Getting Started with Minecraft EE
       </a>
      </li>
-    </ul>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#making-a-maze">
-   Making a Maze
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#generate-a-maze-from-existing-code">
-     Generate a maze from existing code
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#maze-pseudocode">
-     Maze pseudocode
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#build-the-starting-and-ending-locations">
-     Build the starting and ending locations
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#activity-reflection">
-     Activity reflection
-    </a>
-    <ul class="nav section-nav flex-column">
      <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#questions">
-       Questions
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#challenge">
-     Challenge
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#challenge-1-give-the-player-a-perch-for-the-birds-eye-view">
-       Challenge 1 - Give the Player a Perch for the Bird’s-Eye View
+      <a class="reference internal nav-link" href="#making-a-maze">
+       Making a Maze
       </a>
       <ul class="nav section-nav flex-column">
        <li class="toc-h5 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#tasks">
-         Tasks
+        <a class="reference internal nav-link" href="#generate-a-maze-from-existing-code">
+         Generate a maze from existing code
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#maze-pseudocode-algorithm">
+         Maze pseudocode (algorithm)
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#build-the-starting-and-ending-locations">
+         Build the starting and ending locations
         </a>
        </li>
       </ul>
      </li>
      <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#challenge-2-redecorate-the-maze">
-       Challenge 2 - Redecorate the Maze
-      </a>
-     </li>
-    </ul>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#maze-pathfinding">
-   Maze Pathfinding
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#the-algorithm">
-     The Algorithm
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#try-to-code-it-yourself">
-     Try to code it yourself
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#make-a-new-project">
-       Make a new project
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#first-blocks">
-       First Blocks
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#check-for-a-path-to-the-left">
-       Check for a path to the left
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#turn-and-move-forward">
-       Turn and move forward
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#check-for-a-path-forward-or-to-the-right">
-       Check for a path forward or to the right
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#duplicate-conditions-for-the-other-branches-of-your-if">
-       Duplicate Conditions for the Other Branches of Your If
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#move-ahead-forward">
-       Move ahead forward
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#move-along-to-the-right">
-       Move along to the right
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#turn-around-and-go-backward">
-       Turn around and go backward
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#found-the-redstone">
-       Found the redstone!
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#complete-program">
-       Complete program
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#challenges">
-     Challenges
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#challenge-1-fool-the-ai">
-       Challenge 1 - Fool the AI
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#challenge-2-agent-feedback">
-       Challenge 2 - Agent Feedback
-      </a>
-     </li>
-    </ul>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#education-edition-setup-for-makecode">
-   Education Edition Setup for MakeCode
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#setting-up-minecraft-for-makecode">
-     Setting up Minecraft for MakeCode
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#setup-minecraft">
-       Setup Minecraft
+      <a class="reference internal nav-link" href="#maze-pathfinding">
+       Maze Pathfinding
       </a>
       <ul class="nav section-nav flex-column">
        <li class="toc-h5 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#start">
-         1. Start
+        <a class="reference internal nav-link" href="#pathfinding-pseudocode-algorithm">
+         Pathfinding pseudocode (algorithm)
         </a>
        </li>
        <li class="toc-h5 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#create-a-world">
-         2. Create a world
+        <a class="reference internal nav-link" href="#try-to-code-it-yourself">
+         Try to code it yourself
         </a>
+        <ul class="nav section-nav flex-column">
+         <li class="toc-h6 nav-item toc-entry">
+          <a class="reference internal nav-link" href="#make-a-new-project">
+           1/10 Make a new project
+          </a>
+         </li>
+         <li class="toc-h6 nav-item toc-entry">
+          <a class="reference internal nav-link" href="#first-blocks">
+           2/10 First Blocks
+          </a>
+         </li>
+         <li class="toc-h6 nav-item toc-entry">
+          <a class="reference internal nav-link" href="#check-for-a-path-to-the-left">
+           3/10 Check for a path to the left
+          </a>
+         </li>
+         <li class="toc-h6 nav-item toc-entry">
+          <a class="reference internal nav-link" href="#turn-and-move-forward">
+           4/10 Turn and move forward
+          </a>
+         </li>
+         <li class="toc-h6 nav-item toc-entry">
+          <a class="reference internal nav-link" href="#check-for-a-path-forward-or-to-the-right">
+           5/10 Check for a path forward or to the right
+          </a>
+         </li>
+         <li class="toc-h6 nav-item toc-entry">
+          <a class="reference internal nav-link" href="#duplicate-conditions-for-the-other-branches-of-your-if">
+           6/10 Duplicate Conditions for the Other Branches of Your If
+          </a>
+         </li>
+         <li class="toc-h6 nav-item toc-entry">
+          <a class="reference internal nav-link" href="#move-ahead-forward">
+           7/10 Move ahead forward
+          </a>
+         </li>
+         <li class="toc-h6 nav-item toc-entry">
+          <a class="reference internal nav-link" href="#move-along-to-the-right">
+           8/10 Move along to the right
+          </a>
+         </li>
+         <li class="toc-h6 nav-item toc-entry">
+          <a class="reference internal nav-link" href="#turn-around-and-go-backward">
+           9/10 Turn around and go backward
+          </a>
+         </li>
+         <li class="toc-h6 nav-item toc-entry">
+          <a class="reference internal nav-link" href="#found-the-redstone">
+           10/10 Found the redstone!
+          </a>
+         </li>
+        </ul>
        </li>
        <li class="toc-h5 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#turn-on-cheats">
-         3. Turn on cheats
-        </a>
-       </li>
-       <li class="toc-h5 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#the-world-begins">
-         4. The world begins
-        </a>
-       </li>
-       <li class="toc-h5 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#start-in-game-coding">
-         5. Start In-Game coding
+        <a class="reference internal nav-link" href="#complete-program">
+         Complete program
         </a>
        </li>
       </ul>
      </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#artifact">
+       Artifact
+      </a>
+     </li>
     </ul>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#gameplay-with-your-code">
-     Gameplay with your code
+    <a class="reference internal nav-link" href="#final-artifact-minecraft-ee-agent-coding">
+     Final Artifact: Minecraft EE Agent Coding
     </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#how-do-i-import-a-design-into-minecraft">
-   How do I import a design into Minecraft?
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#how-to-upload-3d-objects-from-the-tinkercad-to-the-minecraft-world-minecraft-education-edition">
-   How to Upload 3d-objects From the Tinkercad to the Minecraft World (Minecraft Education Edition)
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#introduction">
-     Introduction
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#step-1-step-1">
-     Step 1: Step 1
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#step-2-step-2">
-     Step 2: Step 2
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#step-3-step-3">
-     Step 3: Step 3
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#step-4-step-4">
-     Step 4: Step 4
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#step-5-step-5">
-     Step 5: Step 5
-    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#instructions">
+       Instructions
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#student-work">
+       Student work
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#rubric-adst-man-fab">
+       Rubric: ADST Man-Fab
+      </a>
+     </li>
+    </ul>
    </li>
   </ul>
  </li>
@@ -646,90 +539,96 @@
         
               <div>
                 
-  <div class="section" id="coding-with-minecraft">
-<h1>Coding with Minecraft<a class="headerlink" href="#coding-with-minecraft" title="Permalink to this headline">¶</a></h1>
-<p>Added: 20210727-1732</p>
-<p>#STEMProjectTopics #ICTCourse #Virtual-Robotics</p>
+  <p><img alt="" src="../_images/banner-MinecraftEECoding-800x150.png" /></p>
+<div class="section" id="coding-with-minecraft-ee">
+<h1>Coding with Minecraft EE<a class="headerlink" href="#coding-with-minecraft-ee" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
 <li><p><a class="reference internal" href="Projects.html"><span class="doc std std-doc">Projects</span></a></p></li>
-<li><p><span class="xref myst">STEM09-ADST-Survey</span></p></li>
-<li><p><a class="reference internal" href="#"><span class="doc std std-doc">Minecraft-EE-Coding</span></a></p></li>
-<li><p><a class="reference external" href="https://drive.google.com/drive/folders/1bwaL67pUBaWmqVNUTg7qiyGatni8RmKz?usp=sharing">MinecraftCoding - Google Drive</a></p></li>
-<li><p><a class="reference external" href="https://vsbworld-my.sharepoint.com/:f:/r/personal/cjanze_vsb_bc_ca/Documents/STEM09/P2-MinecraftEE?csf=1&amp;web=1&amp;e=Npta8a">P2-MinecraftEE</a>  110 Resources to vet</p></li>
-<li><p>see: <span class="xref myst">ICT-Elements-of-Code</span></p></li>
-<li><p>see: <span class="xref myst">ICT-Rubric</span></p></li>
 </ul>
-<div class="section" id="survey3-coding-with-minecraft-ee">
-<h2>Survey3 Coding with Minecraft EE<a class="headerlink" href="#survey3-coding-with-minecraft-ee" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://teams.microsoft.com/l/message/19:e9584c19ad944e3f9bf3c26442cecc4d&#64;thread.tacv2/1622567705903?tenantId=0b8a2e58-7b30-4a08-bab7-d75559e0e3a5&amp;groupId=70cd545c-5227-41de-af89-f32585f43143&amp;parentMessageId=1622567705903&amp;teamName=STEM">P2 Coding with Minecraft EE</a></p>
-<div class="section" id="coding-with-agents-in-minecraft">
-<h3>Coding with Agents in Minecraft<a class="headerlink" href="#coding-with-agents-in-minecraft" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="build-and-solve-a-maze-with-a-minecraft-agent">
+<h2>Build and Solve a Maze with a Minecraft Agent<a class="headerlink" href="#build-and-solve-a-maze-with-a-minecraft-agent" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="description">
+<h3>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p>see <a class="reference external" href="https://docs.google.com/document/d/1k8-cQ2vtIL22OM1DHMGFJtj68hpWVnJPHhLX0NEZW2Y/edit?usp=sharing">Making a Maze</a></p></li>
-<li><p>see <a class="reference external" href="https://docs.google.com/document/d/18qdeVd0Sk1z_S83BnzWM6ktu3qk3KsX8OzVvVpYmDKc/edit?usp=sharing">Maze Pathfinding</a></p></li>
+<li><p>[ ] finish Description, Assignment competencies/replace due-dates &amp; artifact description</p></li>
 </ul>
-<div class="section" id="getting-started">
-<h4>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="key-assignments-dates">
+<h3>Key Assignments/Dates<a class="headerlink" href="#key-assignments-dates" title="Permalink to this headline">¶</a></h3>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Assignment</p></th>
+<th class="head"><p>Competencies</p></th>
+<th class="head"><p>Due Date</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Getting Started with Minecraft EE</p></td>
+<td><p>a, b</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-odd"><td><p>Making a Maze</p></td>
+<td><p>a, b</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-even"><td><p>Maze Pathfinding</p></td>
+<td><p>a, b</p></td>
+<td><p>_</p></td>
+</tr>
+<tr class="row-odd"><td><p>Artifact</p></td>
+<td><p>a, b</p></td>
+<td><p>_</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="assignment-descriptions">
+<h3>Assignment Descriptions<a class="headerlink" href="#assignment-descriptions" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="getting-started-with-minecraft-ee">
+<h4>Getting Started with Minecraft EE<a class="headerlink" href="#getting-started-with-minecraft-ee" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p>Minecraft EE is installed on the computers (remember to log off)</p></li>
-<li><p>see <a class="reference external" href="https://docs.google.com/document/d/1ZCUny_fF8sOX0ljlOd-Or5QI08Rz7M3d2qj5Acw37FE/edit?usp=sharing">Education Edition Setup for MakeCode</a> for how to start Makecode Tutorials from within Minecraft EE</p>
+<li><p>Minecraft EE should already be installed on the school computers. (Remember to log off when you are done!)</p>
 <ul>
-<li><p>Complete Chicken Rain, 1000TNT and Agent Pyramid</p></li>
+<li><p>At a minimum, complete the tutorials for <strong>Chicken Rain</strong>, <strong>1000TNT</strong> and <strong>Agent Pyramid</strong></p></li>
 </ul>
 </li>
+<li><p>see <a class="reference external" href="https://docs.google.com/document/d/1ZCUny_fF8sOX0ljlOd-Or5QI08Rz7M3d2qj5Acw37FE/edit?usp=sharing">Education Edition Setup for MakeCode</a> for how to start Makecode Tutorials from within Minecraft EE</p></li>
 <li><p>see <a class="reference external" href="https://docs.google.com/document/d/1MqFsD05GF0kpK3EC4P0vVX2SFLoLYM7wzIM1U4M4UBo/edit?usp=sharing">Minecraft for Windows 10 Setup for MakeCode</a> to use Code Connection and code at home with your personal version of Minecraft for Windows 10.</p></li>
-<li><p><a class="reference external" href="https://educommunity.minecraft.net/hc/en-us/articles/360047555391-Importing-and-Exporting-Your-Worlds-">https://educommunity.minecraft.net/hc/en-us/articles/360047555391-Importing-and-Exporting-Your-Worlds-</a></p></li>
+<li><p>see <a class="reference external" href="https://educommunity.minecraft.net/hc/en-us/articles/360047555391-Importing-and-Exporting-Your-Worlds-">Importing and Exporting Your Worlds – Minecraft: Education Edition Support</a> for how to save a world and open it on another computer (at school or at home).</p></li>
 </ul>
 </div>
-</div>
-</div>
 <div class="section" id="making-a-maze">
-<h2>Making a Maze<a class="headerlink" href="#making-a-maze" title="Permalink to this headline">¶</a></h2>
+<h4>Making a Maze<a class="headerlink" href="#making-a-maze" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p><a class="reference external" href="https://minecraft.makecode.com/courses/csintro/ai/activity-1">minecraft.makecode.com /courses/csintro/ai/activity-1</a></p></li>
+<li><p>see <a class="reference external" href="https://docs.google.com/document/d/1k8-cQ2vtIL22OM1DHMGFJtj68hpWVnJPHhLX0NEZW2Y/edit?usp=sharing">Making a Maze</a></p></li>
 </ul>
 <hr class="docutils" />
 <p>Learning how to read and write go hand in hand. To become better at writing code yourself, it is good practice to read other people’s programs. Try to read and understand how they work. For this activity, instead of writing code, you will explore an existing program for creating a maze.</p>
+<p>The code for this Maze Generation program is a bit more complex and developed in JavaScript. Basically, the Maze on chat command creates a 10 x 10 block of stone around the Player’s location. The Dig function will instruct the agent to dig out the maze from this block of stone. If the agent breaks through a wall in the maze, it will patch it up using the blocks in the agent’s inventory. The Shuffle function will ‘shuffle’ the directions that the agent will try digging in, to create a random maze pattern. You can preview the chat command “maze” in the blocks below:</p>
 <div class="section" id="generate-a-maze-from-existing-code">
-<h3>Generate a maze from existing code<a class="headerlink" href="#generate-a-maze-from-existing-code" title="Permalink to this headline">¶</a></h3>
+<h5>Generate a maze from existing code<a class="headerlink" href="#generate-a-maze-from-existing-code" title="Permalink to this headline">¶</a></h5>
 <ol class="simple">
-<li><p>Launch Minecraft and create a new Flat world in creative mode</p></li>
-</ol>
-<p><img alt="Grass world template" src="https://lh5.googleusercontent.com/MUzo0BoTAdJWFja_ovhf4r_UnXtr_wnrMBN1K3MkeEa_Cb_JxCV_c0LcJcubnqfsm6HcpCW9T08ddyUbMd7lKvGW2F0pJAhGcHID51UyE1nI8ds787hGY_I2-2oXrP3JZ_-bS22N" /></p>
-<p>You can use the Blocks of Grass template in Minecraft: Education Edition</p>
-<p><img alt="Minecraft flat world setting" src="https://lh3.googleusercontent.com/b-2SNcMJflZ_N4KoqTdQFgVM7KPHAdQ0K7zlk5gxXutIpM1DRareDYgLwoRyewvSWunoaVdBzB0FsU92ugbKhJMSA4r-NXvH2Cnn0TZ3WbMAVLxMi6cAFKeqrZ1-r7-BtJ69oZ9v" /></p>
-<ol class="simple">
-<li><p>Set the game mode to Creative, and World Type to Flat.</p></li>
+<li><p>Launch Minecraft: Education Edition and create a new Flat world (Blocks of Grass template) in creative mode</p></li>
+<li><p>Set the game mode to Creative, and World Type to Flat</p></li>
 <li><p>Open MakeCode in the Code Connection app</p></li>
 <li><p>Select the Import button in MakeCode</p></li>
-</ol>
-<p><img alt="Code Connection homepage" src="https://lh4.googleusercontent.com/2Cs3EzlzuSlxzlboU_4qso-HNxFI8MbroOppS6KmzfiXrL_fYwKZEdtCVHQEkZetVMCL_X8TT8T0oWDdUMBeWXWMu8FOHnIjFk1XwJ2Y5RGpqX_-gJwSRj_xPDkXn_BmBQeL7-qA" /></p>
-<ol class="simple">
 <li><p>Select the Import URL card</p></li>
-</ol>
-<p><img alt="Import URL button" src="https://lh3.googleusercontent.com/sBuzSuz_Gr-hmC4ObXfh8IMNCqR9qHv0NUJzMy0Q9Yr5c7Gje0sP9us6_gmMtH0fyL4J5lvqdYfOhQgCYhyiX1eYBPOfDCwr4vGIRj2aVmjXEW0eDC68ByhjxMwWBmbe27UC7Izj" /></p>
-<ul class="simple">
 <li><p>Paste this URL in the text box and import the code: <a class="reference external" href="https://makecode.com/_9EP0Vt048K0U">https://makecode.com/_9EP0Vt048K0U</a></p></li>
-</ul>
-<p>The code for this Maze Generation program is a bit more complex and developed in JavaScript. Basically, the Maze on chat command creates a 10 x 10 block of stone around the Player’s location. The Dig function will instruct the agent to dig out the maze from this block of stone. If the agent breaks through a wall in the maze, it will patch it up using the blocks in the agent’s inventory. The Shuffle function will ‘shuffle’ the directions that the agent will try digging in, to create a random maze pattern. You can preview the chat command “maze” in the blocks below:</p>
-<p>The agent will need materials to patch holes it makes in the maze. Because the agent is “learning” as it goes, it may accidentally break a block of the maze wall only to later realize we need that block. Thus, the agent then patches the hole it made by mistake. You can give the agent some wood to patch the holes.</p>
-<ul class="simple">
-<li><p>Give the agent some oak wood planks in its inventory, in the upper left inventory slot.</p></li>
-</ul>
-<p>To give your agent something to place, go over to your agent and right-click on it. Move some blocks from your player’s inventory to your agent’s inventory like shown in the picture below. The blocks must be put in that upper left-hand box or the agent will place nothing.</p>
-<p><img alt="Agent's inventory" src="https://lh5.googleusercontent.com/EuuP6IMOpRxNJXK0MrQogZxF3Wgye4AFwtc8UX3cthTEGS5g430rm5y2MHiq4EzdwzNsByP2KJ6YugpD7iX09ujMeUCbT8jCrbw0dLl2-whNoqnHFW30TuUhYzIG8ACPRh88ZfZQ" /></p>
-<p>Let’s try out the program!</p>
-<ul class="simple">
+<li><p>Give the agent some oak wood planks in its inventory, in the upper left inventory slot.  The agent will need materials to patch holes it makes in the maze. Because the agent is “learning” as it goes, it may accidentally break a block of the maze wall only to later realize we need that block. Thus, the agent then patches the hole it made by mistake. You can give the agent some wood to patch the holes.</p></li>
 <li><p>Type the command “maze” in the chat window to see the program run. Double tap the space bar and fly up to get a bird’s-eye view of the agent while it works. It is important to stay clear while it builds the maze.</p></li>
-</ul>
+</ol>
+<p>Want to know more?  See: <a class="reference external" href="https://minecraft.makecode.com/courses/csintro/ai/activity-1">Activity: Maze Generation</a></p>
 </div>
-<div class="section" id="maze-pseudocode">
-<h3>Maze pseudocode<a class="headerlink" href="#maze-pseudocode" title="Permalink to this headline">¶</a></h3>
-<p>Here is the maze solution in pseudocode:</p>
+<div class="section" id="maze-pseudocode-algorithm">
+<h5>Maze pseudocode (algorithm)<a class="headerlink" href="#maze-pseudocode-algorithm" title="Permalink to this headline">¶</a></h5>
+<p>Here is the pseudocode (algorithm) for generating a maze :</p>
 <ul class="simple">
-<li><p>Shuffle the array:</p></li>
+<li><p>Shuffle the array:</p>
+<ul>
 <li><p>Create an array of three directions</p></li>
 <li><p>Randomize their order</p></li>
+</ul>
+</li>
 <li><p>For each value in the array:</p>
 <ul>
 <li><p>If it’s left,</p>
@@ -760,7 +659,7 @@
 <p>The main idea is that the agent will continue to carve an erratic path through the solid block until it reaches a blank space, trying not to destroy walls between passages. Notice that at the very end it calls the same function again in order to restart the maze carving. This is a special form of iteration known as recursion.</p>
 </div>
 <div class="section" id="build-the-starting-and-ending-locations">
-<h3>Build the starting and ending locations<a class="headerlink" href="#build-the-starting-and-ending-locations" title="Permalink to this headline">¶</a></h3>
+<h5>Build the starting and ending locations<a class="headerlink" href="#build-the-starting-and-ending-locations" title="Permalink to this headline">¶</a></h5>
 <p>For the next activity, the agent will need to know when it has successfully completed the maze. In activity 2, you will be creating some code to get the agent to navigate the maze successfully. To get set up for the next activity, you will need to prepare the starting and ending areas of the maze.</p>
 <p>You will need to equip the player with a diamond pickaxe and redstone block. The pickaxe is to destroy the stone for the starting point and ending point. The redstone will mark the ending point. Open Terminal using ‘/‘, then type the give command to equip the player with a diamond pickaxe and a block of redstone.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">give</span> <span class="nd">@s</span> <span class="n">diamond_pickaxe</span>
@@ -773,68 +672,19 @@
 <li><p>Destroy a block at the starting point.</p></li>
 <li><p>Destroy a block at the ending point. Place a redstone block underneath the ending point.</p></li>
 </ol>
-<p><img alt="Destroy area for ending location" src="https://lh4.googleusercontent.com/z0zzGvjGz-we-8KX36je8BdsB_PSONkKOR76YsYL83I2Qafsvy4AnqdOhjP9xTDuEPfVsRMKBfnKJx6N4Y16vWVBKokcFNKgaBsUGR7QCeB7vwuCSoplH6FGdHB5DQHM8cCcpkL8" /></p>
 <p>After destroying the grass block that marks the ending location, place a redstone block in the dirt.</p>
-<p><img alt="Place redstone block at ending location" src="https://lh4.googleusercontent.com/RwJ_KFz4K9zp84h7txNHaMtQjAUT4LGdCg03wBwONBeV2LWQKqTuLpqCaCczKPWJLxeM6Ss28VjeKnTgJObXNIq91b-z0Vr4iqeb6sBgKOY8NwmZjrfQ-JH4uAXXS4teZb-IJ6MC" /></p>
 <p>In the next activity, Maze Pathfinding, you’ll have the agent stop when it detects redstone under its feet. This is how you will know it has completed the maze!</p>
-<p><img alt="Complete Maze Setup" src="https://lh4.googleusercontent.com/GKls63mcGg_wV2QZLIgjBlZv4xO8iZen6YN66cXBNWQURxKiUycEvJFvlT_wgbc_YUDN7sq3Ng4Qcxi5egJbjqvelr_Fp-7XwLWwzEWuKJ48CG3RAWGiLAsx9huKrxzLqsFeTLqK" /></p>
-</div>
-<div class="section" id="activity-reflection">
-<h3>Activity reflection<a class="headerlink" href="#activity-reflection" title="Permalink to this headline">¶</a></h3>
-<div class="section" id="questions">
-<h4>Questions<a class="headerlink" href="#questions" title="Permalink to this headline">¶</a></h4>
-<ol class="simple">
-<li><p>Describe what the fill block does.</p></li>
-<li><p>Why do we Place a block of Air at ~0 ~0 ~0?</p></li>
-<li><p>Why do you think we set agent destroy obstacles to false?</p></li>
-<li><p>What is the difference between the two Teleport commands?</p></li>
-</ol>
-<p>Maze generation algorithms are a popular programming exercise because there are as many different approaches as there are types of mazes! It’s also fun to see the maze as it’s being created. The maze generation routine we are using here is adapted from an algorithm called “recursive backtracking”.</p>
-</div>
-</div>
-<div class="section" id="challenge">
-<h3>Challenge<a class="headerlink" href="#challenge" title="Permalink to this headline">¶</a></h3>
-<p>Let’s change some things to make our own different and unique situations!</p>
-<div class="section" id="challenge-1-give-the-player-a-perch-for-the-birds-eye-view">
-<h4>Challenge 1 - Give the Player a Perch for the Bird’s-Eye View<a class="headerlink" href="#challenge-1-give-the-player-a-perch-for-the-birds-eye-view" title="Permalink to this headline">¶</a></h4>
-<p>A minor issue is that we don’t have anything to stand on and watch the agent build if we choose to. It would be nice to be teleported up to a block when the maze starts. We can then watch comfortably.</p>
-<div class="section" id="tasks">
-<h5>Tasks<a class="headerlink" href="#tasks" title="Permalink to this headline">¶</a></h5>
-<ol class="simple">
-<li><p>Add a block for the player to stand on</p></li>
-<li><p>Teleport the player up to that block.</p></li>
-</ol>
-<p><img alt="Perch for Better View 1" src="https://lh6.googleusercontent.com/SvBpWtmu0OtTros_qLAa0uIpCb0DprOA64oMmtPR9Fv_iSkuXydQnuSxXr6i6RXfRhEsMOGhyurVmYsUvYmIlWioTWknjx6Fq83ZlIzaVHbfbTqjt9kL7DwdMOtCcbnDIPtcFa-w" /></p>
-<p><img alt="Perch for Better View 2" src="https://lh6.googleusercontent.com/C14GG3peFLd058afdZWAFgziDDkcAMeuL8dtKH5QKvrmum95R5RFPLGA2Uv-w2I9gp3QsX55vUs-SB4CZa4Nh4vvUF4EzW3D2r28C4o9Xd-VhBU13WVZJwLUTDdeSDqqu62O6T2p" /></p>
-<p>The solution has a bookshelf block as the perch but you could use any block you want.</p>
-<p><img alt="Perch for Better View 3" src="https://lh5.googleusercontent.com/rqSy3QXluq7XMtEZ4csaW4SOYn9DZfrW148c34A41eAiIdSfgYzm4BR2V6WGZGVJRzURnbuiHnC1c5Z6D39ZQMHhN7mJ6j7QrbraFeZzHFhtufyzUvaYwZX8l_X1b8HgNpqV6lAt" /></p>
-</div>
-</div>
-<div class="section" id="challenge-2-redecorate-the-maze">
-<h4>Challenge 2 - Redecorate the Maze<a class="headerlink" href="#challenge-2-redecorate-the-maze" title="Permalink to this headline">¶</a></h4>
-<p>Change what the maze walls are made of, the patches, and add a floor of a different block type. In total you would need to select 3 new block types to completely redecorate.</p>
-<p>Block Types to Change:</p>
-<ol class="simple">
-<li><p>Initial Maze or Block</p></li>
-<li><p>Wall Patch (equip the agent with a different block for patching the holes it makes by accident)</p></li>
-<li><p>New Floor</p></li>
-</ol>
-<p>Answers will vary…</p>
-<p><img alt="Redecorated Maze" src="https://lh3.googleusercontent.com/5mW7ai5bE_aHhoIX6waES42mvcgm5D2MbQm7c8woCuUqgOW7EyrPIKeugBS5-2b0JacYmUOcUmbHj_-hDO34HI7rfM88vOI17_2hxKrB1E3rtEbWwIUk-rCZaKMDa36dOCM85LgG" /></p>
-</div>
 </div>
 </div>
 <div class="section" id="maze-pathfinding">
-<h2>Maze Pathfinding<a class="headerlink" href="#maze-pathfinding" title="Permalink to this headline">¶</a></h2>
+<h4>Maze Pathfinding<a class="headerlink" href="#maze-pathfinding" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p><a class="reference external" href="https://minecraft.makecode.com/courses/csintro/ai/activity-2">minecraft.makecode.com /courses/csintro/ai/activity-2</a></p></li>
+<li><p>see <a class="reference external" href="https://docs.google.com/document/d/18qdeVd0Sk1z_S83BnzWM6ktu3qk3KsX8OzVvVpYmDKc/edit?usp=sharing">Maze Pathfinding</a></p></li>
 </ul>
 <hr class="docutils" />
 <p>Now let’s teach the agent how to navigate a maze on its own. Rather than giving the agent a set series of directional commands to solve one particular maze, you are going to need to use conditional statements to teach the agent how to find its way through any maze, intelligently.</p>
-<p>You first need a maze to start out with. In case you missed this, the code from the previous activity, <a class="reference external" href="https://minecraft.makecode.com/static/courses/csintro/ai/activity-1">Maze Generation</a>, builds a maze for you. The activity asks you to place a redstone at the end of the maze. This is how your code will know when the agent has finished the maze. The agent will detect this redstone under its feet to signal the end of the code.</p>
-<p><img alt="Stone maze with redstone at the end" src="https://lh6.googleusercontent.com/YjRAr7xryZ_ApUeGMqs76VcYM-ZEOwFF8aT2wU2t8ujmoj5m-ysUcY-WVu32J2v29gfEj0zwBDa7OQfU00nxW-b0lQT6qD64k7tmrZYQR_d-sZUKU6xsC1PCuzJrp2cWxlu2GfBK" /></p>
-<div class="section" id="the-algorithm">
-<h3>The Algorithm<a class="headerlink" href="#the-algorithm" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="pathfinding-pseudocode-algorithm">
+<h5>Pathfinding pseudocode (algorithm)<a class="headerlink" href="#pathfinding-pseudocode-algorithm" title="Permalink to this headline">¶</a></h5>
 <p>In any maze or labyrinth, you can always find your way out by following one wall consistently. You may not find the most direct way out, but you will always come out on the other side. In a Minecraft maze, this basically means always turn left whenever you can, and when you reach a dead end, turn around.</p>
 <p>So, our simple maze-following algorithm looks like:</p>
 <ul class="simple">
@@ -865,277 +715,159 @@
 </ul>
 </div>
 <div class="section" id="try-to-code-it-yourself">
-<h3>Try to code it yourself<a class="headerlink" href="#try-to-code-it-yourself" title="Permalink to this headline">¶</a></h3>
-<p>Try to code a way for the agent to get to the ending point on your own without following the activity steps. If the agent gets stuck, go ahead and use the steps to complete the program.</p>
+<h5>Try to code it yourself<a class="headerlink" href="#try-to-code-it-yourself" title="Permalink to this headline">¶</a></h5>
+<p>Try to code a way for the agent to get to the ending point on your own without following the activity steps. If the agent gets stuck, go ahead and use the any or all of the 10 steps below to complete the program.</p>
 <div class="section" id="make-a-new-project">
-<h4>Make a new project<a class="headerlink" href="#make-a-new-project" title="Permalink to this headline">¶</a></h4>
+<h6>1/10 Make a new project<a class="headerlink" href="#make-a-new-project" title="Permalink to this headline">¶</a></h6>
 <ul class="simple">
 <li><p>Create a new MakeCode project called “Pathfinder”.</p></li>
-<li><p>Use this starter code from the <a class="reference external" href="https://minecraft.makecode.com/courses/csintro/iteration/activity-1">Introduction to the Agent</a> activity.</p></li>
-</ul>
-<p>This code allows you to easily position the agent.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">player</span><span class="o">.</span><span class="n">onChat</span><span class="p">(</span><span class="s2">&quot;tp&quot;</span><span class="p">,</span> <span class="n">function</span> <span class="p">()</span> <span class="p">{</span>
-  <span class="n">agent</span><span class="o">.</span><span class="n">teleportToPlayer</span><span class="p">()</span>
-<span class="p">})</span>
-
-<span class="n">player</span><span class="o">.</span><span class="n">onChat</span><span class="p">(</span><span class="s2">&quot;fd&quot;</span><span class="p">,</span> <span class="n">function</span> <span class="p">()</span> <span class="p">{</span>
-  <span class="n">agent</span><span class="o">.</span><span class="n">move</span><span class="p">(</span><span class="n">FORWARD</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-<span class="p">})</span>
-
-<span class="n">player</span><span class="o">.</span><span class="n">onChat</span><span class="p">(</span><span class="s2">&quot;lt&quot;</span><span class="p">,</span> <span class="n">function</span> <span class="p">()</span> <span class="p">{</span>
-  <span class="n">agent</span><span class="o">.</span><span class="n">turn</span><span class="p">(</span><span class="n">TurnDirection</span><span class="o">.</span><span class="n">Left</span><span class="p">)</span>
-<span class="p">})</span>
-
-<span class="n">player</span><span class="o">.</span><span class="n">onChat</span><span class="p">(</span><span class="s2">&quot;bk&quot;</span><span class="p">,</span> <span class="n">function</span> <span class="p">()</span> <span class="p">{</span>
-  <span class="n">agent</span><span class="o">.</span><span class="n">move</span><span class="p">(</span><span class="n">BACK</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-<span class="p">})</span>
-
-<span class="n">player</span><span class="o">.</span><span class="n">onChat</span><span class="p">(</span><span class="s2">&quot;rt&quot;</span><span class="p">,</span> <span class="n">function</span> <span class="p">()</span> <span class="p">{</span>
-  <span class="n">agent</span><span class="o">.</span><span class="n">turn</span><span class="p">(</span><span class="n">TurnDirection</span><span class="o">.</span><span class="n">Right</span><span class="p">)</span>
-<span class="p">})</span>
-</pre></div>
-</div>
-<p>You can copy the preceding code by highlighting the code, pressing Ctrl+C to copy, and then pasting (Ctrl+V) the code into the JavaScript side in your code connection.</p>
-<p><img alt="Switch code to JavaScript view" src="https://lh3.googleusercontent.com/2MZVKWnL3wKQ0kBHcEkBNgO1TZ-DaYQIPYYh45UlMxu7e5KRkiZn8JAq40nG3rg5L_onqxul24WrKXVJK8WJoxdtCyEHADVIs398_sgREkJu1EFNnjzjwcLBuHm_B7m3xytWL6T-" /></p>
-<p>Let’s use the basic agent controls to move the agent to the starting point of the maze.</p>
-<ul class="simple">
+<li><p>Use this starter code from the <a class="reference external" href="https://minecraft.makecode.com/courses/csintro/iteration/activity-1">Introduction to the Agent</a> activity.  This code allows you to easily position the agent.</p></li>
 <li><p>Move your player to the start of the maze. Type the command “tp” into the chat window. Your agent should teleport over there. Then you will need to turn the agent left(“lt”) or right(“rt”) to get it facing inwards.</p></li>
 </ul>
-<p><img alt="Agent Sitting Just Inside the Door" src="https://lh5.googleusercontent.com/LINp6HZZ5DirQXWXFKjfP-UNG1Q2mhEDol9bqOmqbvIf6CogzqKVK1-uy-dephPegpOzU-uSWUTLyhwKDBKJ-_MmLIKGp3-Dky1ipascyXKTbQU2A0Zp1GG2HWpX_l0vVhLjoJ4d" /></p>
-<p><img alt="Agent at Starting Location" src="https://lh3.googleusercontent.com/g_W8FuJGllu6p3GH2I2eUj1mqY4qLKtfjsxqdcyODMSYD2dt8iocFdUwTUbBs-t40WI_TGi7F2qoVAsSLR8ttcMYlOvJSN-l8_HI4Z1ZRzRfVk6k4pIlH92Py6swTMVsQFg_qA_5" /></p>
 </div>
 <div class="section" id="first-blocks">
-<h4>First Blocks<a class="headerlink" href="#first-blocks" title="Permalink to this headline">¶</a></h4>
+<h6>2/10 First Blocks<a class="headerlink" href="#first-blocks" title="Permalink to this headline">¶</a></h6>
 <ul class="simple">
 <li><p>Create an on chat command block and rename it to “mr” which stands for maze runner.</p></li>
-</ul>
-<p><img alt="" src="https://lh3.googleusercontent.com/unq_nTjQgk0gP5LbEpX998ZOTVl6XjxbONW4c40XLpnYR-AtIeF2Lodo0n7t1X5F5e1MfKvJYyPoOowe5uo040lFNgi7l7FJ_TISuuLwpBTxOz3ZQEUcZjpV5Lan_nrHGL6ZIVfY" /></p>
-<p>You’ll put the whole algorithm in a while loop, which will tell your agent to continue searching for the end of the maze as long as it isn’t standing on redstone.</p>
-<ul class="simple">
+<li><p>You’ll put the whole algorithm in a while loop, which will tell your agent to continue searching for the end of the maze as long as it isn’t standing on redstone.</p>
+<ul>
 <li><p>From LOOPS, drag a while loop into on chat command “mr”.</p></li>
 <li><p>From LOGIC, put a not block into the while loop replacing the true.</p></li>
 <li><p>From AGENT, drag an agent detect into the not.</p></li>
 <li><p>In the agent detect block, use the drop-down menu to select redstone as the type of block to detect.</p></li>
 <li><p>In the agent detect block, use the drop-down menu to select down as the direction.</p></li>
 </ul>
-<p><img alt="" src="https://lh3.googleusercontent.com/hnoyb8Gdb7-Sx1wk6kJHhHfKbThaENOE6BFpqxOH7qVQkU_3tNt84VrCoYoccwRhaqP1YVdOjYPM2Zu70oS0XdXGfKOBOjg1C78J7CtMjQA2gdsYx71yxdnEZJjp2ak9C19nG0IS" /></p>
-<p>This essentially means that while the agent doesn’t detect redstone beneath it, your code will continue running.</p>
+</li>
+<li><p>This essentially means that while the agent doesn’t detect redstone beneath it, your code will continue running.</p></li>
+</ul>
 </div>
 <div class="section" id="check-for-a-path-to-the-left">
-<h4>Check for a path to the left<a class="headerlink" href="#check-for-a-path-to-the-left" title="Permalink to this headline">¶</a></h4>
-<p>Next, we’ll check to see if there is a path open to the left and if so, turn left and move forward.</p>
+<h6>3/10 Check for a path to the left<a class="headerlink" href="#check-for-a-path-to-the-left" title="Permalink to this headline">¶</a></h6>
 <ul class="simple">
+<li><p>Next, we’ll check to see if there is a path open to the left and if so, turn left and move forward.</p>
+<ul>
 <li><p>From LOGIC, drag an if then else block into the while loop.</p></li>
 <li><p>Again from LOGIC, drag a not block into the if then conditional slot replacing the true block.</p></li>
 <li><p>From AGENT, drag an agent detect into the not block.</p></li>
 <li><p>In the agent detect block, use the drop-down menu to select left as the direction to look.</p></li>
 </ul>
-<p><img alt="" src="https://lh3.googleusercontent.com/Hx3u6c6zD44PdsaHiVxm--wQTwjmtGeM6zT9e40WgDTfP9WTxwl7zgrbfAdVqprHzNCVdIEX2EvzIGTmCGkKcTG8AnH3M62NcRCSJZ9sCVWVjCJys_KDXB6WU8I2izGgcSOzOrAm" /></p>
+</li>
+</ul>
 </div>
 <div class="section" id="turn-and-move-forward">
-<h4>Turn and move forward<a class="headerlink" href="#turn-and-move-forward" title="Permalink to this headline">¶</a></h4>
-<p>If the Agent doesn’t detect a block to its left, then we want the Agent to turn left and move forward.</p>
+<h6>4/10 Turn and move forward<a class="headerlink" href="#turn-and-move-forward" title="Permalink to this headline">¶</a></h6>
 <ul class="simple">
+<li><p>If the Agent doesn’t detect a block to its left, then we want the Agent to turn left and move forward.</p>
+<ul>
 <li><p>From AGENT, drag an agent turn, and an agent move block into the first branch of your if then.</p></li>
 </ul>
-<p><img alt="" src="https://lh4.googleusercontent.com/AQQ6P5gvi0vivsn-zlWlzdm1ZHyV6n4bje-eFyMJy57QUDi61K4yoV7moT_FjaP8vXt_qUflMCkZqRaXbmZTmC-puPdLQ2LC1han26IIVIP4PPUN7UyLJEQNq6FGBdx5S7NkvqLG" /></p>
+</li>
+</ul>
 </div>
 <div class="section" id="check-for-a-path-forward-or-to-the-right">
-<h4>Check for a path forward or to the right<a class="headerlink" href="#check-for-a-path-forward-or-to-the-right" title="Permalink to this headline">¶</a></h4>
-<p>Now we need to add 2 more conditions to check forward and to the right of the Agent.</p>
+<h6>5/10 Check for a path forward or to the right<a class="headerlink" href="#check-for-a-path-forward-or-to-the-right" title="Permalink to this headline">¶</a></h6>
 <ul class="simple">
+<li><p>Now we need to add 2 more conditions to check forward and to the right of the Agent.</p>
+<ul>
 <li><p>Click the Plus (+) sign at the bottom of the If then else block twice, to add 2 more Else if clauses.</p></li>
 </ul>
-<p><img alt="" src="https://lh3.googleusercontent.com/mM8j7sbCM0LDkOoWjRTkuWsyUuNBZj15MaUtwYvTRv6laJKQO1EYi_Gw70uRBuy9WTo9-_I-ZjCYjNJrbujfH_Yk7TSsIH_xAMYH2jhLorFZLY5P0OKiJauLRkbXNvUMIRbUdQmU" /></p>
+</li>
+</ul>
 </div>
 <div class="section" id="duplicate-conditions-for-the-other-branches-of-your-if">
-<h4>Duplicate Conditions for the Other Branches of Your If<a class="headerlink" href="#duplicate-conditions-for-the-other-branches-of-your-if" title="Permalink to this headline">¶</a></h4>
+<h6>6/10 Duplicate Conditions for the Other Branches of Your If<a class="headerlink" href="#duplicate-conditions-for-the-other-branches-of-your-if" title="Permalink to this headline">¶</a></h6>
 <ul class="simple">
 <li><p>Right-click on the not block in the first If then conditional slot, and select Duplicate – do this twice to create two more not agent detect conditions.</p></li>
 <li><p>Drop these duplicated conditions into the two additional else if slots.</p></li>
 <li><p>In the second branch of the else if, use the drop-down menu to select forward as the direction to check. Thus, we are checking left and then forward.</p></li>
 <li><p>In the third branch of the else if, use the drop-down menu to select right as the direction to check. Thus, we are checking left, forward, and then right.</p></li>
 </ul>
-<p><img alt="" src="https://lh3.googleusercontent.com/hgydCgnfTkzhbe72pPH5Z-GvxG6UAwaJoNfvBYkCZssqU3_aUw70oTIHJG144G3p2yAkxwyBi199w7YOMGVGnyjrDe3HgkPNALFJGxU6zXwkmSx2tBPpcb-IQMHzG2k0UNWz2JUr" /></p>
 </div>
 <div class="section" id="move-ahead-forward">
-<h4>Move ahead forward<a class="headerlink" href="#move-ahead-forward" title="Permalink to this headline">¶</a></h4>
-<p>If the agent doesn’t detect a block in front of it, then it should simply move forward.</p>
+<h6>7/10 Move ahead forward<a class="headerlink" href="#move-ahead-forward" title="Permalink to this headline">¶</a></h6>
 <ul class="simple">
+<li><p>If the agent doesn’t detect a block in front of it, then it should simply move forward.</p>
+<ul>
 <li><p>From AGENT, drag an agent move block into the second branch of the else if clause.</p></li>
+</ul>
+</li>
 </ul>
 </div>
 <div class="section" id="move-along-to-the-right">
-<h4>Move along to the right<a class="headerlink" href="#move-along-to-the-right" title="Permalink to this headline">¶</a></h4>
-<p>If the agent doesn’t detect a block to its right, then the agent should turn right and move forward.</p>
+<h6>8/10 Move along to the right<a class="headerlink" href="#move-along-to-the-right" title="Permalink to this headline">¶</a></h6>
 <ul class="simple">
+<li><p>If the agent doesn’t detect a block to its right, then the agent should turn right and move forward.</p>
+<ul>
 <li><p>From AGENT, drag an agent turn, and an agent move block into the third branch of the else if clause.</p></li>
-<li><p>n the agent turn block, use the drop-down menu to select right as the direction to turn.</p></li>
+<li><p>In the agent turn block, use the drop-down menu to select right as the direction to turn.</p></li>
 </ul>
-<p>You may also want to just duplicate these blocks. That is perfectly fine as well!</p>
-<p><img alt="" src="https://lh3.googleusercontent.com/bEtSZg5ZS0c_1WgybFT8vdPd3-4U2X5ftaDHaCHKnGoRhARhM3JD7tZ15etnJq8gwFQizBn5CeSacutIgotnaDSnWq9eG1l-wAcKVrXHiwvXAeyNVs57lQ9ooTlRxrz-n7JrqJNg" /></p>
+</li>
+</ul>
 </div>
 <div class="section" id="turn-around-and-go-backward">
-<h4>Turn around and go backward<a class="headerlink" href="#turn-around-and-go-backward" title="Permalink to this headline">¶</a></h4>
-<p>Finally, if the agent is at a dead-end (none of the three directions are open), you want the agent to turn around and head back in the opposite direction.</p>
+<h6>9/10 Turn around and go backward<a class="headerlink" href="#turn-around-and-go-backward" title="Permalink to this headline">¶</a></h6>
 <ul class="simple">
+<li><p>Finally, if the agent is at a dead-end (none of the three directions are open), you want the agent to turn around and head back in the opposite direction.</p>
+<ul>
 <li><p>From AGENT, drag the following 3 blocks into the last else clause: 2 agent turn blocks, and an agent move block.</p></li>
 </ul>
-<p><img alt="" src="https://lh5.googleusercontent.com/wWSFyW8fxD9aB65LOEABaTxGKxqanJ0MqY4snaBUuQFIbrwp7Xbs48amMPtgteACEO6wVXO6wVYtuU6eg1EFCnpGidwp2ivbdcjoF-5-lJlefDUM3Gh1-3_WJWS5fL919p6LUP5U" /></p>
+</li>
+</ul>
 </div>
 <div class="section" id="found-the-redstone">
-<h4>Found the redstone!<a class="headerlink" href="#found-the-redstone" title="Permalink to this headline">¶</a></h4>
+<h6>10/10 Found the redstone!<a class="headerlink" href="#found-the-redstone" title="Permalink to this headline">¶</a></h6>
 <ul class="simple">
-<li><p>If the agent detects Redstone, it will know it has reached the finish. You can have the agent do a happy dance at the end of the maze! Feel free to reuse the code from the <a class="reference external" href="https://minecraft.makecode.com/courses/csintro/iteration/activity-2">Dance Dance Agent</a> activity in <a class="reference external" href="https://minecraft.makecode.com/courses/csintro/iteration">Lesson 5: Iteration</a>.</p></li>
-</ul>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">player</span><span class="o">.</span><span class="n">onChat</span><span class="p">(</span><span class="s2">&quot;dance&quot;</span><span class="p">,</span> <span class="n">function</span> <span class="p">()</span> <span class="p">{</span>
- <span class="k">for</span> <span class="p">(</span><span class="n">let</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">4</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-   <span class="n">agent</span><span class="o">.</span><span class="n">move</span><span class="p">(</span><span class="n">LEFT</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> 
-   <span class="n">agent</span><span class="o">.</span><span class="n">attack</span><span class="p">(</span><span class="n">FORWARD</span><span class="p">)</span>
-   <span class="n">agent</span><span class="o">.</span><span class="n">move</span><span class="p">(</span><span class="n">RIGHT</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-   <span class="n">agent</span><span class="o">.</span><span class="n">move</span><span class="p">(</span><span class="n">RIGHT</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-   <span class="n">agent</span><span class="o">.</span><span class="n">move</span><span class="p">(</span><span class="n">RIGHT</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-   <span class="n">agent</span><span class="o">.</span><span class="n">turn</span><span class="p">(</span><span class="n">TurnDirection</span><span class="o">.</span><span class="n">Left</span><span class="p">)</span>
-   <span class="n">agent</span><span class="o">.</span><span class="n">move</span><span class="p">(</span><span class="n">LEFT</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
- <span class="p">}</span>
-<span class="p">})</span>
-</pre></div>
-</div>
-<ul class="simple">
+<li><p>If the agent detects Redstone, it will know it has reached the finish. You can have the agent do a happy dance at the end of the maze! Feel free to reuse the code from the <a class="reference external" href="https://minecraft.makecode.com/courses/csintro/iteration/activity-2">Dance Dance Agent</a> activity in <a class="reference external" href="https://minecraft.makecode.com/courses/csintro/iteration">Lesson 5: Iteration</a>.</p>
+<ul>
 <li><p>To run the code for on chat command “dance”, place a run chat command “” block from PLAYER underneath and outside the while loop. It should read run chat command “dance” when you are finished.</p></li>
+<li><p>Using run chat command “dance” is like making a function call. You could use a function here instead if you wanted to.</p></li>
 </ul>
-<p>Using run chat command “dance” is like making a function call. You could use a function here instead if you wanted to.</p>
+</li>
+</ul>
+</div>
 </div>
 <div class="section" id="complete-program">
-<h4>Complete program<a class="headerlink" href="#complete-program" title="Permalink to this headline">¶</a></h4>
-<p>Shared Program: <a class="reference external" href="https://makecode.com/_M8HXrKRLfhzM">https://makecode.com/_M8HXrKRLfhzM</a></p>
+<h5>Complete program<a class="headerlink" href="#complete-program" title="Permalink to this headline">¶</a></h5>
+<p>IF you want to compare your code against another version, check out: <a class="reference external" href="https://makecode.com/_M8HXrKRLfhzM">Pathfinder</a></p>
+<p>Want to know more? See: <a class="reference external" href="https://minecraft.makecode.com/courses/csintro/ai/activity-2">Activity: Maze Pathfinding</a></p>
 </div>
 </div>
-<div class="section" id="challenges">
-<h3>Challenges<a class="headerlink" href="#challenges" title="Permalink to this headline">¶</a></h3>
-<div class="section" id="challenge-1-fool-the-ai">
-<h4>Challenge 1 - Fool the AI<a class="headerlink" href="#challenge-1-fool-the-ai" title="Permalink to this headline">¶</a></h4>
-<p>How can you break this code or activity? Find a way to break this and describe why it confuses the agent or why it is not working.</p>
-</div>
-<div class="section" id="challenge-2-agent-feedback">
-<h4>Challenge 2 - Agent Feedback<a class="headerlink" href="#challenge-2-agent-feedback" title="Permalink to this headline">¶</a></h4>
-<p>Can you have the agent notify the player after the decisions it makes? The messages could say things like “Oh! Better turn left, I hit a wall!” There are several ways to do this.</p>
-<p><img alt="Agent Gives Feedback on Progress" src="https://lh4.googleusercontent.com/-_f4l7qtgy94gzJ-WeW-FNTU8K3CQLn0VmMhU26LNKJgt9f0tZfKNDN6ZIsACgLiqxp9ZRHqQ28deMbP1b6bLvdU4llvNWb9NykenS0LHppBxVLL60OaM7WpjZkAE0Fttd_UV6i5" /></p>
-<p>Can you find a way for the agent to mark the trail it takes. This might help others find there way through should they stumble upon the maze. The solution has the agent tilling dirt to show the way but perhaps you can think of other ways to mark the path.</p>
-<p><img alt="Breadcrumbs" src="https://lh4.googleusercontent.com/9q6KOeSVqQjQgDT-47yS3F1qdVTA-kdh051KOwfUHc9D-82VolBpX-5E263JM08XjuRDr6JuVowve_hewAu7DVvB1ZwE-MvCbEwRYiVadkXQVoWi9XGgmO_IeW0jTaEkSQji49eD" /></p>
-<p><img alt="Breadcrumbs from Above" src="https://lh4.googleusercontent.com/N9KWT2RYkoJDyTZ1BJFuNKbJpxZuci4ALgbAzofRVnq5MTVAHRpHIOQOcOOK7w4DcagoufGV7ZVVL12vFRtAjXUi5P_KkQzryalDnCYTmpPYANRaoYEztDG68dMP8G61RjiCpFFh" /></p>
+<div class="section" id="artifact">
+<h4>Artifact<a class="headerlink" href="#artifact" title="Permalink to this headline">¶</a></h4>
+<p>Download, complete and submit the Minecraft EE Agent Coding Final Artifact <a class="reference external" href="https://drive.google.com/file/d/10CF-QrbECnwerXIUPhCkvBGpFlHK5PUF/view?usp=sharing">MinecraftEE Coding.pptx - Google Drive</a></p>
 </div>
 </div>
-</div>
-<div class="section" id="education-edition-setup-for-makecode">
-<h2>Education Edition Setup for MakeCode<a class="headerlink" href="#education-edition-setup-for-makecode" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://minecraft.makecode.com/setup/minecraft-education-edition">minecraft.makecode.com /setup/minecraft-education-edition</a></p>
-<hr class="docutils" />
-<div class="section" id="setting-up-minecraft-for-makecode">
-<h3>Setting up Minecraft for MakeCode<a class="headerlink" href="#setting-up-minecraft-for-makecode" title="Permalink to this headline">¶</a></h3>
-<p>Here’s how to get setup and connected to MakeCode for the first time…</p>
-<div class="section" id="setup-minecraft">
-<h4>Setup Minecraft<a class="headerlink" href="#setup-minecraft" title="Permalink to this headline">¶</a></h4>
-<div class="section" id="start">
-<h5>1. Start<a class="headerlink" href="#start" title="Permalink to this headline">¶</a></h5>
-<p>Start Minecraft and sign in if you’re using Minecraft: Education Edition.</p>
-</div>
-<div class="section" id="create-a-world">
-<h5>2. Create a world<a class="headerlink" href="#create-a-world" title="Permalink to this headline">¶</a></h5>
-<p>Press the Play button. Push the Create New button in the Worlds dialog. The Create… window will have some default templates you could choose from but make your own world with the Create New World button.</p>
-</div>
-<div class="section" id="turn-on-cheats">
-<h5>3. Turn on cheats<a class="headerlink" href="#turn-on-cheats" title="Permalink to this headline">¶</a></h5>
-<p>You’ll see some settings for your new world. Leave everything as you see it except for Cheats. You need to turn Activate Cheats to the ON position to enable all of the coding features for MakeCode.</p>
-</div>
-<div class="section" id="the-world-begins">
-<h5>4. The world begins<a class="headerlink" href="#the-world-begins" title="Permalink to this headline">¶</a></h5>
-<p>Press Create and you can start playing in your new world.</p>
-</div>
-<div class="section" id="start-in-game-coding">
-<h5>5. Start In-Game coding<a class="headerlink" href="#start-in-game-coding" title="Permalink to this headline">¶</a></h5>
-<p>Start in-game coding by typing “c“. The Code Builder window will show up in the game with a list of coding apps to choose from. Select Microsoft MakeCode.</p>
-<p><img alt="Choose MakeCode" src="https://lh3.googleusercontent.com/nHAnlVX5yR3077v1LYfkjwl0fPRBY30vK_ztJ358E5mFMfUkyR0nYsFBZViACRfucin1MZ7CXn85sYDytSmd6vwJy-t1W7woI8-S7NkbsOJ4lfFeRDGyygRl1nV6w5xq2pKtv_4p" /></p>
-<p>The MakeCode home screen will appear in the Code Builder window. Select “New Project” in the “My Projects” gallery to start a fresh project. If you want to try a tutorial or another example instead, pick one of those from the galleries.</p>
-<p><img alt="Select New Project or tutorial" src="https://lh5.googleusercontent.com/IhjWoqWrUjhSuyFDd5yRiLibjf6VNndOQG9bBw2eW3IrNUGmNiIed8cwuooiH2n3M0Crgy99csWu4FqmG4qESTqLKhJaREFQWIB5pCiq88RR-eZASlZDv_Egp_yaNKaf01el-PHh" /></p>
-</div>
-</div>
-</div>
-<div class="section" id="gameplay-with-your-code">
-<h3>Gameplay with your code<a class="headerlink" href="#gameplay-with-your-code" title="Permalink to this headline">¶</a></h3>
-<p>To run your code in Minecraft: Education Edition, go back to the game after working with your coding project. Press Resume Game. Depending on what your code is meant to do, your code might run as a chat command or maybe start when some condition in the game changes. Try one of the <a class="reference external" href="https://minecraft.makecode.com/tutorials">tutorials</a> and follow the steps.</p>
-<p>Minecraft has keyboard controls that help you move around and do tasks. Here’s a helpful key card that shows what they are:</p>
-<p><img alt="" src="https://lh5.googleusercontent.com/XV88XDem-J2RcV6J8z859uGSV_GY72nxgPy-zgTQumjVfjxrw24HUA5x0VXFnZ7AijiXgpKuJTWUfDusOG9iglPZeDaAcjWapEQIGLNfnZ38fOSTGWCFZFggq-NV50_cryLK0Wpy" /></p>
-</div>
-</div>
-<div class="section" id="how-do-i-import-a-design-into-minecraft">
-<h2>How do I import a design into Minecraft?<a class="headerlink" href="#how-do-i-import-a-design-into-minecraft" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="final-artifact-minecraft-ee-agent-coding">
+<h3>Final Artifact: Minecraft EE Agent Coding<a class="headerlink" href="#final-artifact-minecraft-ee-agent-coding" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="instructions">
+<h4>Instructions<a class="headerlink" href="#instructions" title="Permalink to this headline">¶</a></h4>
+<p>In the attached PowerPoint, use screen captures of parts of the code you used for the Minecraft EE “Make A Maze” / “Pathfinding” tutorials to demonstrate how you APPLIED the following elements of code:</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://www.instructables.com/How-to-Upload-3d-objects-From-the-Tinkercad-to-the/">https://www.instructables.com/How-to-Upload-3d-objects-From-the-Tinkercad-to-the/</a></p></li>
+<li><p>Sequence (order matters)</p></li>
+<li><p>Variables (boxes of memory to hold values)</p></li>
+<li><p>Conditionals (questions and choices)</p></li>
+<li><p>Iterations (loops)</p></li>
+<li><p>Functions (mini-programs)</p></li>
 </ul>
-<hr class="docutils" />
-<p>You can view and edit your Tinkercad design in the “Blocks” editor and configure the block size and material before exporting it for Minecraft.</p>
+<p>As well, EXTEND your previous answer to demonstrate the following Computational Thinking practices:</p>
 <ul class="simple">
-<li><p>In the editor, click the “Blocks” editor (pick axe icon).</p></li>
+<li><p>Decomposition (what was the problem; what smaller pieces did you break it into?)</p></li>
+<li><p>Pattern Recognition (what parts is the problem made of; what actions repeat?)</p></li>
+<li><p>Abstraction (in what ways did you make one thing that can be used in more than one situation?)</p></li>
+<li><p>Algorithms (what “recipes” did you make; what “problems” did they solve?)</p></li>
 </ul>
-<p><img alt="" src="https://lh3.googleusercontent.com/zjdy_HAnPyC7izJXIlgVcakJi41yQV4HlDJsV3Oo6iOtIW3r6TUvXsf1OQXhxZdZLiPSk-J75Qkv-VLqlT96zx3zrhA8YxgOwGpF64xVfS0fG47grhPHQ_Nl-XeTKDGHpE-zs3Fw" />​</p>
-<ul class="simple">
-<li><p>You can change the materials for each object as you would like them to be in Minecraft. Just click the material to change it.</p></li>
-</ul>
-<p><img alt="" src="https://lh4.googleusercontent.com/Xf8ZqdZONG3RcvFNC_OE4XbFaxJdlfjF6Gd6BwV7Y1SERNZLjxX2BPT2EfbhLUC_mgUTvkWkkQQ2pq7haLViYyYFWSoTRtAWrqHXp7wPJaqRYhgMFIARVsuXPHztQyuwLiF6fYWH" /></p>
-<ul class="simple">
-<li><p>Click “Export” to export your “blocked” design to a SCHEMATIC file (.schematic).</p></li>
-<li><p>Then, you can import the SCHEMATIC file into MCEdit (place it in your schematics folder) to place in your Minecraft worlds.</p></li>
-</ul>
-<hr class="docutils" />
-<p>Actually, I did figure it out.</p>
-<ol class="simple">
-<li><p>You can make worlds with MCedit.</p></li>
-<li><p>then use the Anvil to LevelDB converter</p></li>
-<li><p>compress the files into a zip folder. When you compress, compress the files, and not the folder, as you don’t want an addition subdirectory</p></li>
-<li><p>change the .zip to .mcworld, and then it will upload into Education edition</p></li>
-</ol>
 </div>
-<div class="section" id="how-to-upload-3d-objects-from-the-tinkercad-to-the-minecraft-world-minecraft-education-edition">
-<h2>How to Upload 3d-objects From the Tinkercad to the Minecraft World (Minecraft Education Edition)<a class="headerlink" href="#how-to-upload-3d-objects-from-the-tinkercad-to-the-minecraft-world-minecraft-education-edition" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p><a class="reference external" href="https://www.instructables.com/member/zvereva.g.a/">zvereva.g.a</a> in <a class="reference external" href="https://www.instructables.com/teachers/">Teachers</a><a class="reference external" href="https://www.instructables.com/teachers/projects/?subjects=3d-design">3D Design</a>16911</p></li>
-</ul>
-<div class="section" id="introduction">
-<h3>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h3>
-<p><img alt="How to Upload 3d-objects From the Tinkercad to the Minecraft World (Minecraft Education Edition)" src="https://lh6.googleusercontent.com/VehTh0G-s6iN4RQttO0d3u-CxN2s40c5ir5n91Vwoad8tK08Qu3WNzaPjovTGK1TQgtgHqvm1yj0SUW4ZsYEh8V88agPb8KZErwu82WlFfkkJoHySwMmCTeGpvfoYs6HDN8MH9ya" /></p>
-<p>Downloads:</p>
-<ol class="simple">
-<li><p>3d -objects from <a class="reference external" href="https://www.tinkercad.com/">https://www.tinkercad.com/</a> in the format .schematic</p></li>
-<li><p>Minecraft:Education Edition: <a class="reference external" href="https://education.minecraft.net/get-started/download">https://education.minecraft.net/get-started/downl…</a></p></li>
-<li><p>MCedit: <a class="reference external" href="https://www.mcedit-unified.net/">https://www.mcedit-unified.net/</a></p></li>
-<li><p>Amulet: <a class="reference external" href="https://github.com/Amulet-Team/Amulet-Map-Editor/releases/tag/0.7.2.8">https://github.com/Amulet-Team/Amulet-Map-Editor/…</a></p></li>
-</ol>
+<div class="section" id="student-work">
+<h4>Student work<a class="headerlink" href="#student-work" title="Permalink to this headline">¶</a></h4>
+<p><a class="reference external" href="https://drive.google.com/file/d/10CF-QrbECnwerXIUPhCkvBGpFlHK5PUF/view?usp=sharing">MinecraftEE Coding.pptx - Google Drive</a></p>
 </div>
-<div class="section" id="step-1-step-1">
-<h3>Step 1: Step 1<a class="headerlink" href="#step-1-step-1" title="Permalink to this headline">¶</a></h3>
-<p><img alt="Step 1" src="https://lh4.googleusercontent.com/1n_wECtH5MtkAMhqdeCCbkNJIY28l18-qc8LZssa7kyAnh3KAGafUkOLOyGFKNtyiRn9Sjk5nI6inwf0XfDC1b3nKJms8A8yRUx7uXh_rc0prUG_GnUE7uXsRTnCK5pGR2xngUfa" /></p>
-<p>Choose ”Blocks” presentation of the object, appropriate design size and export your object in the format .schematic.</p>
+<div class="section" id="rubric-adst-man-fab">
+<h4>Rubric: ADST Man-Fab<a class="headerlink" href="#rubric-adst-man-fab" title="Permalink to this headline">¶</a></h4>
+<p>|  |NO EVIDENCE | 0 | Beginning | 1 | Developing | 1 | Applying |  1 | Extending | 1 |
+| — | —  | —   |   — |  —  |  —  |  —  |  —  |  —  |  —  |
+| Computational Thinking: Elements of Code (Sequence, Variables, Conditionals, Iterations, Functions &amp; Arrays) | No evidence presented |  |  |  | Some of the six elements of code present (arrays not necessary) |  | Five of six elements of code present |  | Generalize elements of code use from this project to other projects|  |  |
+| Computational Thinking: the Four Practices (Decomposition, Pattern Recognition, Abstraction &amp; Algorithms) | No evidence presented |  | Identify and define the computational thinking practices |  | Describe some computational thinking practices using code blocks with short descriptions |  | Explain all computational thinking practices (using code blocks with short descriptions) |  | Generalize computational thinking practices from this project to other projects |  |</p>
 </div>
-<div class="section" id="step-2-step-2">
-<h3>Step 2: Step 2<a class="headerlink" href="#step-2-step-2" title="Permalink to this headline">¶</a></h3>
-<p><img alt="Step 2" src="https://lh4.googleusercontent.com/k_SVs9usITi5TbR0u719IToM9ZWCIEYCLf_dTqi5S_rbDaS1H_jgRqkYosKy53Xin5315XZEgVHMP0khjsUr5BACn2yA0tT92IlpJ1S5_-X-LWJ9yrU7rx8r1sPJ5AhMXUbTwMPz" /></p>
-<p>Install and log in to Minecraft: Education Edition (M:EE) in accordance with direct instructions from the site. Create a new world, save or export it. We recommend using the following settings: creative mode, easy difficulty, flat type. Worlds automatically are saved by the following links C:\Users\AppData\Roaming\Minecraft Education Edition\games\com.mojang\minecraftWorlds.</p>
-</div>
-<div class="section" id="step-3-step-3">
-<h3>Step 3: Step 3<a class="headerlink" href="#step-3-step-3" title="Permalink to this headline">¶</a></h3>
-<p><img alt="Step 3" src="https://lh5.googleusercontent.com/OFT8PZOOek-xNl5GqKMThcQTfV0AVMdcmoJzB0YveRGhOUdFVxRdZ7fSsF61N1KjvqiGkZBRWae43Y9Gx27xfLA1XSk_2DVvPlKhpuOaqiWxP1D7QgLr7BhHb4Q95TAgmJyMfs5P" /></p>
-<p>Download MCedit in .zip and unpack it, launch the application. Click the button “create a new world” and use the recommended setting: creative game type, flatland generator. Import in this world 3d objects from Tinkercad using, for example, this guidance. <a class="reference external" href="https://www.youtube.com/watch?v=Ur60XFRZvEU&amp;ab_channel=ChrisAviles">https://www.youtube.com/watch?v=Ur60XFRZvEU&amp;ab_ch…</a></p>
-<p>Save the mcedit world on your computer and quit from this application. NB! Before launch MCedit close M:EE.</p>
-</div>
-<div class="section" id="step-4-step-4">
-<h3>Step 4: Step 4<a class="headerlink" href="#step-4-step-4" title="Permalink to this headline">¶</a></h3>
-<p><img alt="Step 4" src="https://lh6.googleusercontent.com/M2303iQ8z2mgIX6JftL7cAJrOJQCbVb08XetpF8ySXlqJvjas30BhYQVO-Sr3IBopJhACd3aaybzsNtqCPBL58Y2RN8NLEcQUm18uiX36oamh99QlcxPQwHOnpfF-4pbe4d-lVj1" /></p>
-<p>Download Amulet in .zip and unpack it, launch the application. Select input World (Mcedit) and Output World (M:EE) in the tab “convert” and click “convert”. Changes should successfully convert to the M:EE world, which automatically is saved in the M:EE storage (see link in Step 2).</p>
-</div>
-<div class="section" id="step-5-step-5">
-<h3>Step 5: Step 5<a class="headerlink" href="#step-5-step-5" title="Permalink to this headline">¶</a></h3>
-<p>Check that you have the world with the Tinkercad objects in the M:EE, host it and invite friends to join your world.</p>
 </div>
 </div>
 </div>
